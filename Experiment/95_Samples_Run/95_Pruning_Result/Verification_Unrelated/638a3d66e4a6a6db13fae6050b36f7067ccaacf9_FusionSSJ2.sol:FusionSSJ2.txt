@@ -1,0 +1,3 @@
+```json
+{"correct": ["allowance", "approve", "balanceOf", "decimals", "delBot", "name", "openTrading", "owner", "renounceOwnership", "setBots", "setCooldownEnabled", "symbol", "totalSupply"], "wrong": []}
+```

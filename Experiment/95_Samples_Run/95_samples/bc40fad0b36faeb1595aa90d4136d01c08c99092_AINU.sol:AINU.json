@@ -1,0 +1,49 @@
+{
+ "evm_code_coverage": "23.8",
+ "instructions": "10974",
+ "time": "1802.389196395874",
+ "analysis": {
+  "div_in_path": [
+   [
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:133:11: Warning: Div In Path.\n\t\trequire(_checkTradingOpen(sender)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:137:10: Warning: Div In Path.\n\t\treturn _transferFrom(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:180:24: Warning: Div In Path.\n\t\tuint256 _taxAmount = _calculateTax(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:183:3: Warning: Div In Path.\n\t\tif ( _taxAmount > 0 ) { _balances[address(this)] = _balances[address(this)] + _taxAmount; }"
+   ],
+   [
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:133:11: Warning: Div In Path.\n\t\trequire(_checkTradingOpen(sender)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:137:10: Warning: Div In Path.\n\t\treturn _transferFrom(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:179:94: Warning: Div In Path.\n\t\tif ( sender != address(this) && recipient != address(this) && sender != _owner ) { require(_checkLimits(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:180:24: Warning: Div In Path.\n\t\tuint256 _taxAmount = _calculateTax(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:183:3: Warning: Div In Path.\n\t\tif ( _taxAmount > 0 ) { _balances[address(this)] = _balances[address(this)] + _taxAmount; }"
+   ],
+   [
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:133:11: Warning: Div In Path.\n\t\trequire(_checkTradingOpen(sender)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:137:10: Warning: Div In Path.\n\t\treturn _transferFrom(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:177:44: Warning: Div In Path.\n\t\tif ( !_inTaxSwap && _isLP[recipient] ) { _swapTaxAndLiquify()",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:292:33: Warning: Div In Path.\n\t\tuint256 _taxTokensAvailable = balanceOf(address(this))",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:180:24: Warning: Div In Path.\n\t\tuint256 _taxAmount = _calculateTax(sender, recipient, amount)",
+    "ex_95_samples/bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol:183:3: Warning: Div In Path.\n\t\tif ( _taxAmount > 0 ) { _balances[address(this)] = _balances[address(this)] + _taxAmount; }"
+   ]
+  ],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 1,
+ "storage_var_count": 30,
+ "pub_fun_count": 27
+}

@@ -1,0 +1,17 @@
+```json
+{
+  "correct": [
+    "CommunityWithDraw",
+    "WithDraw",
+    "BuyTicket",
+    "BuyTicketUseVault",
+    "iWantXKeys",
+    "withdrawEarnings",
+    "updateGenVault"
+  ],
+  "wrong": [
+    "registerName",
+    "calcUnMaskedEarnings"
+  ]
+}
+```

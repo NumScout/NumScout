@@ -1,0 +1,6 @@
+```json
+{
+    "correct": ["burnBlacklistTokens", "transfer", "transferFrom"],
+    "wrong": []
+}
+```

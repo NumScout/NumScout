@@ -1,0 +1,33 @@
+```json
+{
+  "correct": [
+    "packSize",
+    "setOwner",
+    "creationBlock",
+    "unpause",
+    "paused",
+    "perClaim",
+    "claimMultiple",
+    "canClaim",
+    "pause",
+    "packsPerClaim",
+    "owner",
+    "setPacksPerClaim",
+    "packs",
+    "isPriorPack",
+    "getPurchaseCount",
+    "getCardDetails",
+    "setCanClaim",
+    "basePrice",
+    "predictPacks",
+    "setPackLimit",
+    "calculatePrice",
+    "packLimit",
+    "vault"
+  ],
+  "wrong": [
+    "migration",
+    "purchases"
+  ]
+}
+```

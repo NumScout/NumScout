@@ -1,0 +1,6 @@
+```json
+{
+    "correct": ["burn", "burnBatch", "ownerMint", "preSaleMint", "publicSaleMint", "safeBatchTransferFrom", "safeTransferFrom", "withdrawAll"],
+    "wrong": []
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+"correct": ["presaleMint", "publicMint", "mintForAddress", "transferFrom", "safeTransferFrom", "safeTransferFrom", "burn", "withdraw"],
+"wrong": []
+}
+```

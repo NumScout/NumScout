@@ -1,0 +1,1 @@
+{"related": ["approve", "transferFrom", "withdraw", "burn", "transfer", "getTokens", "withdrawForeignTokens"], "unrelated": ["name", "totalSupply", "decimals", "value", "balanceOf", "symbol", "finishDistribution", "distributionFinished", "getTokenBalance", "totalRemaining", "allowance", "totalDistributed", "transferOwnership", "blacklist"]}

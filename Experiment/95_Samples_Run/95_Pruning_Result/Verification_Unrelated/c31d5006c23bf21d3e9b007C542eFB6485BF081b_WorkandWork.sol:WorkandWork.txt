@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["MAX_SUPPLY", "approve", "balanceOf", "batchMintAmount", "batchMintCost", "getApproved", "isApprovedForAll", "name", "owner", "ownerOf", "setApprovalForAll", "setUriPrefix", "supportsInterface", "symbol", "tokenURI", "totalSupply", "transferOwnership", "uriPrefix"],
+  "wrong": []
+}
+```

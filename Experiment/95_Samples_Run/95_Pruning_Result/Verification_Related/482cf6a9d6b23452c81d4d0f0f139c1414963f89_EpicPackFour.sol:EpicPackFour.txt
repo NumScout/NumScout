@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["claim", "purchase", "withdraw", "purchaseFor", "callback"],
+  "wrong": ["recommit"]
+}
+```

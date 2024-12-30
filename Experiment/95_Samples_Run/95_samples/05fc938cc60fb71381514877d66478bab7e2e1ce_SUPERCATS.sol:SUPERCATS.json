@@ -1,0 +1,33 @@
+{
+ "evm_code_coverage": "22.1",
+ "instructions": "13692",
+ "time": "1800.0555453300476",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/05fc938cc60fb71381514877d66478bab7e2e1ce_SUPERCATS.sol:121:22: Warning: Indivisible Amount.\n\t\trequire(owner() == _msgSender()",
+    "ex_95_samples/05fc938cc60fb71381514877d66478bab7e2e1ce_SUPERCATS.sol:121:11: Warning: Indivisible Amount.\n\t\trequire(owner()",
+    "ex_95_samples/05fc938cc60fb71381514877d66478bab7e2e1ce_SUPERCATS.sol:457:3: Warning: Indivisible Amount.\n\t\tpayable(msg.sender).transfer(amountToClear)"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 46,
+ "pub_fun_count": 68
+}

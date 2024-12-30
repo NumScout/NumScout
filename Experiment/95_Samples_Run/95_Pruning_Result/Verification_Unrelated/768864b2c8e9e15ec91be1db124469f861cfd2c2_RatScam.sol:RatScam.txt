@@ -1,0 +1,3 @@
+```json
+{"correct":["getBuyPrice","calcKeysReceived","getTimeLeft","name","symbol","reLoadXaddr","reLoadXname","reLoadXid","activate","registerNameXID","registerNameXaddr","registerNameXname","receivePlayerInfo","receivePlayerNameList","getCurrentRoundInfo","getPlayerInfoByAddress","getPlayerVaults"],"wrong":["buyXaddr","buyXid","buyXname"]}
+```

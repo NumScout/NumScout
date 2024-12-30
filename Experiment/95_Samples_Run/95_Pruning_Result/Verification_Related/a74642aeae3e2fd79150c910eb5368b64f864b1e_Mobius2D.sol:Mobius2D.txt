@@ -1,0 +1,6 @@
+```json
+{
+    "correct": ["withdrawDevShare", "withdrawReturns", "buyShares", "reinvestReturns"],
+    "wrong": ["startNewRound", "finalizeAndRestart"]
+}
+```

@@ -1,0 +1,43 @@
+```json
+{
+  "correct": [
+    "DEAD_ADDRESS",
+    "_tTotal",
+    "allowance",
+    "balanceOf",
+    "buyLiquidityFee",
+    "buyTxFee",
+    "decimals",
+    "decreaseAllowance",
+    "deployer",
+    "dev",
+    "excludeFromAllLimits",
+    "excludeFromFees",
+    "excludeFromTxLimit",
+    "excludeFromWalletLimit",
+    "increaseAllowance",
+    "isBlacklisted",
+    "isExcludedFromFees",
+    "isExcludedFromTxLimit",
+    "isExcludedFromWalletLimit",
+    "isLaunched",
+    "launchNow",
+    "maxTxLimit",
+    "maxWalletLimit",
+    "name",
+    "owner",
+    "renounceOwnership",
+    "sellLiquidityFee",
+    "sellTxFee",
+    "swapAtAmount",
+    "symbol",
+    "tokensForLiquidity",
+    "tokensForTax",
+    "totalSupply",
+    "transferOwnership",
+    "uniswapV2Pair",
+    "uniswapV2Router"
+  ],
+  "wrong": []
+}
+```

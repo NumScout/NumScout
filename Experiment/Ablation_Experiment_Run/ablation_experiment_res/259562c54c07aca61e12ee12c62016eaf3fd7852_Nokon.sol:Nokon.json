@@ -1,0 +1,69 @@
+{
+ "evm_code_coverage": "99.7",
+ "instructions": "3546",
+ "time": "144.66038060188293",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [
+   [
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:193:9: Warning: Operator Order Issue.\n        buy()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:200:56: Warning: Operator Order Issue.\n        uint256 amountToBuy = msg.value / ethRateFix * calculateRate()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:141:27: Warning: Operator Order Issue.\n        uint256 balance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:201:30: Warning: Operator Order Issue.\n        uint256 dexBalance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:208:14: Warning: Operator Order Issue.\n        emit Transfer(address(this), msg.sender, amountToBuy)"
+   ],
+   [
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:200:56: Warning: Operator Order Issue.\n        uint256 amountToBuy = msg.value / ethRateFix * calculateRate()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:141:27: Warning: Operator Order Issue.\n        uint256 balance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:201:30: Warning: Operator Order Issue.\n        uint256 dexBalance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:208:14: Warning: Operator Order Issue.\n        emit Transfer(address(this), msg.sender, amountToBuy)"
+   ]
+  ],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [
+   [
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:193:9: Warning: Exchange Problem.\n        buy()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:200:56: Warning: Exchange Problem.\n        uint256 amountToBuy = msg.value / ethRateFix * calculateRate()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:141:27: Warning: Exchange Problem.\n        uint256 balance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:201:30: Warning: Exchange Problem.\n        uint256 dexBalance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:208:14: Warning: Exchange Problem.\n        emit Transfer(address(this), msg.sender, amountToBuy)"
+   ],
+   [
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:200:56: Warning: Exchange Problem.\n        uint256 amountToBuy = msg.value / ethRateFix * calculateRate()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:141:27: Warning: Exchange Problem.\n        uint256 balance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:201:30: Warning: Exchange Problem.\n        uint256 dexBalance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:208:14: Warning: Exchange Problem.\n        emit Transfer(address(this), msg.sender, amountToBuy)"
+   ]
+  ],
+  "exchange_rounding": [
+   [
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:193:9: Warning: Exchange Rounding.\n        buy()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:200:56: Warning: Exchange Rounding.\n        uint256 amountToBuy = msg.value / ethRateFix * calculateRate()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:141:27: Warning: Exchange Rounding.\n        uint256 balance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:201:30: Warning: Exchange Rounding.\n        uint256 dexBalance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:208:14: Warning: Exchange Rounding.\n        emit Transfer(address(this), msg.sender, amountToBuy)"
+   ],
+   [
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:200:56: Warning: Exchange Rounding.\n        uint256 amountToBuy = msg.value / ethRateFix * calculateRate()",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:141:27: Warning: Exchange Rounding.\n        uint256 balance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:201:30: Warning: Exchange Rounding.\n        uint256 dexBalance = balanceOf(address(this))",
+    "ab_95_samples/259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol:208:14: Warning: Exchange Rounding.\n        emit Transfer(address(this), msg.sender, amountToBuy)"
+   ]
+  ],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": true,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": true,
+  "exchange_rounding": true,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 10,
+ "pub_fun_count": 19
+}

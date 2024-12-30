@@ -1,0 +1,27 @@
+{
+ "evm_code_coverage": "92.8",
+ "instructions": "9506",
+ "time": "1372.0636434555054",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 4,
+ "storage_var_count": 21,
+ "pub_fun_count": 37
+}

@@ -1,0 +1,42 @@
+```json
+{
+  "correct": [
+    "_getETHBalance",
+    "_marketingWalletAddress",
+    "_setMaxTxAmount",
+    "_setTaxFee",
+    "_setTeamFee",
+    "_setTeamWallet",
+    "_teamWalletAddress",
+    "allowance",
+    "approve",
+    "balanceOf",
+    "geUnlockTime",
+    "increaseAllowance",
+    "isExcluded",
+    "isExcludedFromFee",
+    "lock",
+    "name",
+    "owner",
+    "reflectionFromToken",
+    "renounceOwnership",
+    "setExcludeFromFee",
+    "setSwapEnabled",
+    "swapEnabled",
+    "symbol",
+    "tokenFromReflection",
+    "totalFees",
+    "totalSupply",
+    "transferOwnership",
+    "uniswapV2Pair",
+    "uniswapV2Router",
+    "unlock"
+  ],
+  "wrong": [
+    "deliver",
+    "excludeAccount",
+    "includeAccount",
+    "decreaseAllowance"
+  ]
+}
+```

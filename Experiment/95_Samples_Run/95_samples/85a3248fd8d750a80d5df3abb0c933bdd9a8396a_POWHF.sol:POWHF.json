@@ -1,0 +1,63 @@
+{
+ "evm_code_coverage": "57.1",
+ "instructions": "3248",
+ "time": "1802.5472619533539",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [
+   [
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:170:26: Warning: Operator Order Issue.\n        if (_tokens > 0) sell(_tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:503:17: Warning: Operator Order Issue.\n        require(myTokens()",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:289:16: Warning: Operator Order Issue.\n        return balanceOf(_customerAddress)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:203:26: Warning: Operator Order Issue.\n        uint _ethereum = tokensToEthereum_(_tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:473:13: Warning: Operator Order Issue.\n            SafeMath.sub(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:204:27: Warning: Operator Order Issue.\n        uint _dividends = SafeMath.div(_ethereum, dividendFee_)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:205:31: Warning: Operator Order Issue.\n        uint _taxedEthereum = SafeMath.sub(_ethereum, _dividends)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:208:24: Warning: Operator Order Issue.\n        tokenSupply_ = SafeMath.sub(tokenSupply_, _tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:209:49: Warning: Operator Order Issue.\n        tokenBalanceLedger_[_customerAddress] = SafeMath.sub(tokenBalanceLedger_[_customerAddress], _tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:173:9: Warning: Operator Order Issue.\n        withdraw()",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:509:17: Warning: Operator Order Issue.\n        require(myDividends(true)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:300:40: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:180:27: Warning: Operator Order Issue.\n        uint _dividends = myDividends(false)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:300:109: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress) + referralBalance_[_customerAddress] : dividendsOf(_customerAddress)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:190:9: Warning: Operator Order Issue.\n        _customerAddress.transfer(_dividends)"
+   ],
+   [
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:170:26: Warning: Operator Order Issue.\n        if (_tokens > 0) sell(_tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:503:17: Warning: Operator Order Issue.\n        require(myTokens()",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:289:16: Warning: Operator Order Issue.\n        return balanceOf(_customerAddress)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:203:26: Warning: Operator Order Issue.\n        uint _ethereum = tokensToEthereum_(_tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:473:13: Warning: Operator Order Issue.\n            SafeMath.sub(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:204:27: Warning: Operator Order Issue.\n        uint _dividends = SafeMath.div(_ethereum, dividendFee_)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:205:31: Warning: Operator Order Issue.\n        uint _taxedEthereum = SafeMath.sub(_ethereum, _dividends)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:208:24: Warning: Operator Order Issue.\n        tokenSupply_ = SafeMath.sub(tokenSupply_, _tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:209:49: Warning: Operator Order Issue.\n        tokenBalanceLedger_[_customerAddress] = SafeMath.sub(tokenBalanceLedger_[_customerAddress], _tokens)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:218:31: Warning: Operator Order Issue.\n            profitPerShare_ = SafeMath.add(profitPerShare_, (_dividends * magnitude) / tokenSupply_)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:173:9: Warning: Operator Order Issue.\n        withdraw()",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:509:17: Warning: Operator Order Issue.\n        require(myDividends(true)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:300:40: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:180:27: Warning: Operator Order Issue.\n        uint _dividends = myDividends(false)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:300:109: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress) + referralBalance_[_customerAddress] : dividendsOf(_customerAddress)",
+    "ex_95_samples/85a3248fd8d750a80d5df3abb0c933bdd9a8396a_POWHF.sol:190:9: Warning: Operator Order Issue.\n        _customerAddress.transfer(_dividends)"
+   ]
+  ],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": true,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 13,
+ "pub_fun_count": 20
+}

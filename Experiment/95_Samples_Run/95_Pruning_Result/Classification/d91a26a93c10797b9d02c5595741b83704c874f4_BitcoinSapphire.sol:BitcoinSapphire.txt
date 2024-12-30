@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["approve", "transferFrom", "withdraw", "burn", "airdrop", "finishDistribution", "distributeAmounts", "transfer", "getTokens", "withdrawForeignTokens", "distribution"],
+  "unrelated": ["name", "totalSupply", "decimals", "value", "disableWhitelist", "balanceOf", "symbol", "enableWhitelist", "distributionFinished", "getTokenBalance", "totalRemaining", "allowance", "totalDistributed", "transferOwnership", "blacklist"]
+}
+```

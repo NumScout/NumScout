@@ -1,0 +1,37 @@
+```json
+{
+  "correct": [
+    "MAX_PER_TX",
+    "MAX_PER_TX_FREE",
+    "balanceOf",
+    "baseExtension",
+    "baseURI",
+    "configPrice",
+    "configfree_max_supply",
+    "configmax_supply",
+    "contractURI",
+    "free_max_supply",
+    "getApproved",
+    "isApprovedForAll",
+    "max_supply",
+    "name",
+    "newbaseExtension",
+    "owner",
+    "ownerOf",
+    "pause",
+    "paused",
+    "price",
+    "proxyRegistryAddress",
+    "renounceOwnership",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setContractURI",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalSupply",
+    "transferOwnership"
+  ],
+  "wrong": []
+}
+```

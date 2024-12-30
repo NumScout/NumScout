@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["mint", "ownerBatchMint", "setTotalFree", "setPrice", "setMaxPerTx", "setmaxSupply", "withdraw"],
+  "wrong": ["setOwnersExplicit"]
+}
+```

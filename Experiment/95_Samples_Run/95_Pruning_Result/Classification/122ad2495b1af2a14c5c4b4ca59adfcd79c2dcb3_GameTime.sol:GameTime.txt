@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["burnBlacklistTokens", "transfer", "transferFrom"],
+  "unrelated": ["BLACKLIST", "allowance", "approve", "balanceOf", "creator", "decimals", "name", "owner", "removeWalletFromBlacklist", "removeWalletsFromBlacklist", "setLimits", "setTaxWallets", "setTaxes", "stopBlacklist", "symbol", "totalSupply"]
+}
+```

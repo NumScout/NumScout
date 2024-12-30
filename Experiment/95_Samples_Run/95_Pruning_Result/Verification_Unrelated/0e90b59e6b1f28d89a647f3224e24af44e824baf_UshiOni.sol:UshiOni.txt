@@ -1,0 +1,40 @@
+```json
+{
+  "correct": [
+    "Creamify",
+    "_maxTxAmount",
+    "_maxWalletToken",
+    "approve",
+    "allowance",
+    "buyCooldownEnabled",
+    "cooldownEnabled",
+    "cooldownTimerInterval",
+    "decimals",
+    "getCirculatingSupply",
+    "getLiquidityBacking",
+    "getOwner",
+    "isCreamy",
+    "isOverLiquified",
+    "isOwner",
+    "name",
+    "pair",
+    "renounce",
+    "router",
+    "setFeeReceivers",
+    "setFees",
+    "setIsFeeExempt",
+    "setIsTimelockExempt",
+    "setIsTxLimitExempt",
+    "setMaxWalletPercent",
+    "setSwapBackSettings",
+    "setTargetLiquidity",
+    "setTxLimit",
+    "swapEnabled",
+    "swapThreshold",
+    "symbol",
+    "totalSupply",
+    "tradingOpen"
+  ],
+  "wrong": []
+}
+```

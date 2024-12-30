@@ -1,0 +1,73 @@
+{
+    "time_all": 144263.11834406853,
+    "count": 95,
+    "time_avg": 1518.5591404638792,
+    "error": 0,
+    "vul": {
+        "div_in_path": 7,
+        "operator_order_issue": 5,
+        "indivisible_amount": 19,
+        "precision_loss_trend": 3,
+        "exchange_problem": 3,
+        "exchange_rounding": 3,
+        "profit_opportunity": 1
+    },
+    "list": {
+        "div_in_path": [
+            "926476bfc3550ccb424202004b9aab9ac40e32de_VeChainX.sol",
+            "a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol",
+            "bc40fad0b36faeb1595aa90d4136d01c08c99092_AINU.sol",
+            "122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol",
+            "39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol",
+            "9BAcb4E17328d11b334dA6d48BEC3EC55CEC0858_dAvInci.sol",
+            "d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol"
+        ],
+        "operator_order_issue": [
+            "259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol",
+            "4E0fCa55a6C3A94720ded91153A27F60E26B9AA8_BoostToken.sol",
+            "6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol",
+            "7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol",
+            "0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol"
+        ],
+        "indivisible_amount": [
+            "cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol",
+            "3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol",
+            "acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol",
+            "4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol",
+            "9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol",
+            "af83df4264395f7082639db543cdbca3cc9a477c_TheVerdyctResurgence.sol",
+            "04e5e1a11f92be3560bf58a76723e6fe4dc09abd_DODO.sol",
+            "6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol",
+            "e50b077ecaf6105a70f992fa83b0fdc6a062a349_BabyDogeDoo.sol",
+            "08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol",
+            "38195c86c5a32af913f05ba2c82e4c07fdeb2427_eKISHU.sol",
+            "63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol",
+            "4E0fCa55a6C3A94720ded91153A27F60E26B9AA8_BoostToken.sol",
+            "05fc938cc60fb71381514877d66478bab7e2e1ce_SUPERCATS.sol",
+            "7b8741bd212b4f2d0a1b53008670d2b0174a1cd9_HYPERLOOP.sol",
+            "47e661f80a5fecb42137c97ecd910e2436f3ccad_Shibbit.sol",
+            "84b7d95165328d790a34cc5d7ecf528be55c65ed_DiceGame.sol",
+            "0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol",
+            "638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol"
+        ],
+        "precision_loss_trend": [
+            "2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol",
+            "bfBa224810655e7B5D94190700768fa8aBDB9eAa_HippoHotel.sol",
+            "7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol"
+        ],
+        "exchange_problem": [
+            "259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol",
+            "6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol",
+            "2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol"
+        ],
+        "exchange_rounding": [
+            "259562c54c07aca61e12ee12c62016eaf3fd7852_Nokon.sol",
+            "6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol",
+            "2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol"
+        ],
+        "profit_opportunity": [
+            "2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol"
+        ],
+        "error": []
+    }
+}

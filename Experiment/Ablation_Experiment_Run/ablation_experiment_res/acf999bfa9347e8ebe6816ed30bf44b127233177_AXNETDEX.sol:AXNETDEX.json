@@ -1,0 +1,42 @@
+{
+ "evm_code_coverage": "91.9",
+ "instructions": "6114",
+ "time": "1803.01060628891",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:138:27: Warning: Indivisible Amount.\n    tokens[token][user] = safeSub(tokens[token][user], amount)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:139:68: Warning: Indivisible Amount.\n    tokens[token][feeAccount] = safeAdd(tokens[token][feeAccount], safeMul(feeWithdrawal, amount)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:139:33: Warning: Indivisible Amount.\n    tokens[token][feeAccount] = safeAdd(tokens[token][feeAccount], safeMul(feeWithdrawal, amount) / 1 ether)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:140:14: Warning: Indivisible Amount.\n    amount = safeMul((1 ether - feeWithdrawal), amount)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:145:14: Warning: Indivisible Amount.\n      assert(Token(token).transfer(user, amount)"
+   ],
+   [
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:138:27: Warning: Indivisible Amount.\n    tokens[token][user] = safeSub(tokens[token][user], amount)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:139:68: Warning: Indivisible Amount.\n    tokens[token][feeAccount] = safeAdd(tokens[token][feeAccount], safeMul(feeWithdrawal, amount)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:139:33: Warning: Indivisible Amount.\n    tokens[token][feeAccount] = safeAdd(tokens[token][feeAccount], safeMul(feeWithdrawal, amount) / 1 ether)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:140:14: Warning: Indivisible Amount.\n    amount = safeMul((1 ether - feeWithdrawal), amount)",
+    "ab_95_samples/acf999bfa9347e8ebe6816ed30bf44b127233177_AXNETDEX.sol:143:14: Warning: Indivisible Amount.\n      assert(user.send(amount)"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 8,
+ "pub_fun_count": 18
+}

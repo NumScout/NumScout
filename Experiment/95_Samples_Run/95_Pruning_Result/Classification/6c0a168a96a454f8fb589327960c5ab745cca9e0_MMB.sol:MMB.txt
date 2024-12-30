@@ -1,0 +1,3 @@
+```json
+{"related": ["mint", "ownerBatchMint", "setOwnersExplicit", "setTotalFree", "setPrice", "setMaxPerTx", "setmaxSupply", "withdraw"], "unrelated": ["approve", "balanceOf", "baseExtension", "baseURI", "getApproved", "getOwnershipData", "isApprovedForAll", "maxPerTx", "maxSupply", "maxTxForFreeMints", "mintEnabled", "name", "nextOwnerToExplicitlySet", "numberMinted", "owner", "ownerOf", "renounceOwnership", "safeTransferFrom", "safeTransferFrom", "setApprovalForAll", "setBaseExtension", "setBaseURI", "supportsInterface", "symbol", "toggleMinting", "tokenByIndex", "tokenOfOwnerByIndex", "tokenURI", "totalFree", "totalSupply", "transferFrom", "transferOwnership"]}
+```

@@ -1,0 +1,6 @@
+```json
+{
+    "related": ["participantClawbackEther", "emergencyWithdrawParsecs", "emergencyClawbackEther", "emergencyRefundContract", "ownerWithdrawParsecs", "transferOwnership"],
+    "unrelated": ["ownerStartContract", "refundOf", "BONUS_TIER_5_LIMIT", "BONUS_TIER_7_LIMIT", "parsecsOf", "ownerFinishContract", "declineKyc", "ownerDeclareRefundFinish", "PARSECS_TOTAL_AMOUNT", "MINIMUM_PARTICIPATION_AMOUNT", "BONUS_TIER_2_LIMIT", "contractStarted", "acceptKyc", "kycStatus", "raisedFunding", "contractFailed", "multisigAddress", "contractRefundStarted", "pendingParsecs", "pendingFunding", "ownerPowerUpContract", "BONUS_TIER_8_LIMIT", "ownerPauseContract", "ownerDeclareRefundStart", "BONUS_TIER_9_LIMIT", "contractPaused", "owner", "auditorAddress", "contractFinished", "BONUS_TIER_1_LIMIT", "ownerDeclareFailure", "BONUS_TIER_4_LIMIT", "BONUS_TIER_3_LIMIT", "ownerResumeContract", "PARSECS_PER_ETHER_BASE", "spentParsecs", "contractRefundFinished", "refundPoweredUp", "pendingParsecsOf", "contributionOf", "pendingContributionOf", "BONUS_TIER_6_LIMIT", "ownerSetAuditor", "refundedFunding"]
+}
+```

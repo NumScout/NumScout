@@ -1,0 +1,63 @@
+{
+ "evm_code_coverage": "46.7",
+ "instructions": "4423",
+ "time": "1802.0746614933014",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [
+   [
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:188:25: Warning: Operator Order Issue.\n        if(_tokens > 0) sell(_tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:16:17: Warning: Operator Order Issue.\n        require(myTokens()",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:361:16: Warning: Operator Order Issue.\n        return balanceOf(_customerAddress)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:231:29: Warning: Operator Order Issue.\n        uint256 _ethereum = tokensToEthereum_(_tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:626:13: Warning: Operator Order Issue.\n            SafeMath.sub(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:232:30: Warning: Operator Order Issue.\n        uint256 _dividends = SafeMath.div(_ethereum, dividendFee_)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:233:34: Warning: Operator Order Issue.\n        uint256 _taxedEthereum = SafeMath.sub(_ethereum, _dividends)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:236:24: Warning: Operator Order Issue.\n        tokenSupply_ = SafeMath.sub(tokenSupply_, _tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:237:49: Warning: Operator Order Issue.\n        tokenBalanceLedger_[_customerAddress] = SafeMath.sub(tokenBalanceLedger_[_customerAddress], _tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:191:9: Warning: Operator Order Issue.\n        withdraw()",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:22:17: Warning: Operator Order Issue.\n        require(myDividends(true)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:376:40: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:203:30: Warning: Operator Order Issue.\n        uint256 _dividends = myDividends(false)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:376:109: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress) + referralBalance_[_customerAddress] : dividendsOf(_customerAddress)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:213:9: Warning: Operator Order Issue.\n        _customerAddress.transfer(_dividends)"
+   ],
+   [
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:188:25: Warning: Operator Order Issue.\n        if(_tokens > 0) sell(_tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:16:17: Warning: Operator Order Issue.\n        require(myTokens()",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:361:16: Warning: Operator Order Issue.\n        return balanceOf(_customerAddress)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:231:29: Warning: Operator Order Issue.\n        uint256 _ethereum = tokensToEthereum_(_tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:626:13: Warning: Operator Order Issue.\n            SafeMath.sub(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:232:30: Warning: Operator Order Issue.\n        uint256 _dividends = SafeMath.div(_ethereum, dividendFee_)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:233:34: Warning: Operator Order Issue.\n        uint256 _taxedEthereum = SafeMath.sub(_ethereum, _dividends)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:236:24: Warning: Operator Order Issue.\n        tokenSupply_ = SafeMath.sub(tokenSupply_, _tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:237:49: Warning: Operator Order Issue.\n        tokenBalanceLedger_[_customerAddress] = SafeMath.sub(tokenBalanceLedger_[_customerAddress], _tokens)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:246:31: Warning: Operator Order Issue.\n            profitPerShare_ = SafeMath.add(profitPerShare_, (_dividends * magnitude) / tokenSupply_)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:191:9: Warning: Operator Order Issue.\n        withdraw()",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:22:17: Warning: Operator Order Issue.\n        require(myDividends(true)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:376:40: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:203:30: Warning: Operator Order Issue.\n        uint256 _dividends = myDividends(false)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:376:109: Warning: Operator Order Issue.\n        return _includeReferralBonus ? dividendsOf(_customerAddress) + referralBalance_[_customerAddress] : dividendsOf(_customerAddress)",
+    "ex_95_samples/6a40f8b2c7e6eb5bacbd52bc055e230d00168669_CharlieCoin.sol:213:9: Warning: Operator Order Issue.\n        _customerAddress.transfer(_dividends)"
+   ]
+  ],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": true,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 20,
+ "pub_fun_count": 28
+}

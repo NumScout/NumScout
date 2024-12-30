@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["name", "saleCap", "startDate", "totalSupply", "decimals", "weiRaised", "threshold", "wallet", "allowed", "saleActive", "extended", "owner", "transferable", "symbol", "getRateAt", "endDate", "approveAndCall", "allowance", "extendSaleTime", "transferOwnership"],
+  "wrong": []
+}
+```

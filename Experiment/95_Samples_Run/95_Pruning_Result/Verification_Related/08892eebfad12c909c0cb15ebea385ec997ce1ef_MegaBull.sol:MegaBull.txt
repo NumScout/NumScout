@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["approve", "balanceOf", "deliver", "manualSend", "manualSwap", "reflectionFromToken", "tokenFromReflection", "totalFees", "transfer", "transferFrom"],
+  "wrong": ["_setMaxTxAmount", "_setTaxFee", "_setTeamFee", "_setTeamWallet", "decreaseAllowance", "increaseAllowance"]
+}
+```

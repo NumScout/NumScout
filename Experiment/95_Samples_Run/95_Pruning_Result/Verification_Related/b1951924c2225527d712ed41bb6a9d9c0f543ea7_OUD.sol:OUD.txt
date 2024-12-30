@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["transfer", "transferFrom", "withdrawStuckETH", "swapTokens", "swapETHForTokens", "buyBackTokens", "addLiquidityForEth"],
+  "wrong": []
+}
+```

@@ -1,0 +1,28 @@
+```json
+{
+  "correct": [
+    "addData",
+    "setTokenAddr",
+    "offers",
+    "tokenAddr",
+    "dispute",
+    "renounceOwnership",
+    "addAffiliate",
+    "owner",
+    "totalOffers",
+    "allowedAffiliates",
+    "addData",
+    "removeAffiliate",
+    "totalListings",
+    "updateListingWithSender",
+    "addData",
+    "createListingWithSender",
+    "listings",
+    "transferOwnership"
+  ],
+  "wrong": [
+    "updateListing",
+    "createListing"
+  ]
+}
+```

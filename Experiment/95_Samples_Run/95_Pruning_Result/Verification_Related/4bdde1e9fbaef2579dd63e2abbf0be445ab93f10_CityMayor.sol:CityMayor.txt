@@ -1,0 +1,24 @@
+```json
+{
+  "correct": [
+    "transfer",
+    "transferFrom",
+    "AdminBuyForSomeone",
+    "makeOfferForCityForSomeone",
+    "adminWithdraw",
+    "buyCity",
+    "sellCityForEther",
+    "resolveSellCityForEther",
+    "makeOfferForCity",
+    "acceptOfferForCity",
+    "buyMonument"
+  ],
+  "wrong": [
+    "approve",
+    "increaseApproval",
+    "decreaseApproval",
+    "cancelSellCityForEther",
+    "cancelOfferForCity"
+  ]
+}
+```

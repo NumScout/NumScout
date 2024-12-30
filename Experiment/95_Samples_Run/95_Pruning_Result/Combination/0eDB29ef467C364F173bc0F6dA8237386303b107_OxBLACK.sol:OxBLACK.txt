@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["publicSaleMint", "ogMint", "devMint", "withdrawMoney", "batchTransferFrom", "transferFrom", "safeTransferFrom"],
+  "unrelated": ["actualCollectionSize", "approve", "balanceOf", "devMints", "freeMints", "getApproved", "getOwnershipData", "isApprovedForAll", "maxPerFreeMint", "maxPerTx", "maxPerWallet", "merkleRoot", "name", "nextOwnerToExplicitlySet", "ogMintActive", "owner", "ownerOf", "publicMintPrice", "publicSaleActive", "renounceOwnership", "setApprovalForAll", "setBaseURI", "setMerkleRoot", "setOwnersExplicit", "supportsInterface", "symbol", "toggleOgMint", "togglePublicMint", "tokenByIndex", "tokenOfOwnerByIndex", "tokenURI", "totalSupply", "transferOwnership", "walletQuantity"]
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["updateRefund", "makeOffer", "sendDeposit", "addFunds", "acceptOffer", "withdrawListing", "withdrawOffer", "finalize", "executeRuling"],
+  "wrong": []
+}
+```

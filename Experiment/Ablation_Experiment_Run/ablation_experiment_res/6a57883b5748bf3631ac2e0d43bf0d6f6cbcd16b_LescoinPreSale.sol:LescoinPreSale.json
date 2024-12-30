@@ -1,0 +1,39 @@
+{
+ "evm_code_coverage": "98.6",
+ "instructions": "1111",
+ "time": "1073.4024138450623",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [
+   [
+    "ab_95_samples/6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol:381:9: Warning: Operator Order Issue.\n        tokenReward.transfer(msg.sender, tokenAmount * (100 + bonus) / 100)"
+   ]
+  ],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [
+   [
+    "ab_95_samples/6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol:381:9: Warning: Exchange Problem.\n        tokenReward.transfer(msg.sender, tokenAmount * (100 + bonus) / 100)"
+   ]
+  ],
+  "exchange_rounding": [
+   [
+    "ab_95_samples/6a57883b5748bf3631ac2e0d43bf0d6f6cbcd16b_LescoinPreSale.sol:381:9: Warning: Exchange Rounding.\n        tokenReward.transfer(msg.sender, tokenAmount * (100 + bonus) / 100)"
+   ]
+  ],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": true,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": true,
+  "exchange_rounding": true,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 6,
+ "storage_var_count": 8,
+ "pub_fun_count": 13
+}

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["owner", "renounceOwnership", "transferOwnership"],
+  "wrong": []
+}
+```

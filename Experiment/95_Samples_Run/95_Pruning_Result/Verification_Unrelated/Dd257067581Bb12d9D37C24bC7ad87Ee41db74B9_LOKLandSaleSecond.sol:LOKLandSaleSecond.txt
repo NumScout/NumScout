@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["computePrice", "getCounts", "getEthExchange", "getLimits", "getLokaExchange", "getLokaSpent", "getRank", "getRankRange", "getRanks", "getRemains", "getTimestamp", "getWhitelist", "inDurationRange", "inGuildRound", "isOwner", "owner", "ownersOf", "ownersOfRange", "rate", "renounceOwnership", "setCounts", "setDuration", "setDutch", "setEthExchange", "setGuildRound", "setLand", "setLimits", "setLoka", "setLokaExchange", "setPrices", "setReceiver", "setTokenReceiver", "setWhitelist", "transferOwnership"],
+  "wrong": []
+}
+```

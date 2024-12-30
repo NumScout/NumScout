@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["manualsend", "manualswap", "transfer", "transferFrom"],
+  "wrong": ["setMinSwapTokensThreshold", "toggleSwap"]
+}
+```

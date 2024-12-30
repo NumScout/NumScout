@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["addInitialLiquidity", "airdrop", "approve", "burnTokens", "manualTaxSwapAndSend", "openTrading", "transfer", "transferFrom", "transferOwnership"],
+  "wrong": ["setExemptions", "setExtraLP", "setTaxDistribution", "setTaxRates", "setTaxSwapLimits", "setTaxWallets"]
+}
+```

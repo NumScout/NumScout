@@ -1,0 +1,48 @@
+```json
+{
+  "correct": [
+    "approve",
+    "balanceOf",
+    "exists",
+    "getApproved",
+    "getPresaleAmountMintedPerAccount",
+    "isApprovedForAll",
+    "maxMintAmountPerPresaleAccount",
+    "maxMintAmountPerPublicAccount",
+    "maxSupply",
+    "merkleRoot",
+    "name",
+    "numberMinted",
+    "owner",
+    "ownerOf",
+    "presaleActive",
+    "presaleCost",
+    "presaleMaxSupply",
+    "presaleTotalSupply",
+    "publicMaxSupply",
+    "publicSaleActive",
+    "publicSaleCost",
+    "publicTotalSupply",
+    "setApprovalForAll",
+    "setBaseURI",
+    "setMaxMintPerPresaleAccount",
+    "setMaxMintPerPublicAccount",
+    "setMerkleRoot",
+    "setPresaleActive",
+    "setPresaleCost",
+    "setPresaleMaxSupply",
+    "setPublicActive",
+    "setPublicMaxSupply",
+    "setPublicSaleCost",
+    "supportsInterface",
+    "symbol",
+    "tokenURI",
+    "totalMinted",
+    "totalSupply",
+    "walletOfOwner"
+  ],
+  "wrong": [
+    "transferOwnership"
+  ]
+}
+```

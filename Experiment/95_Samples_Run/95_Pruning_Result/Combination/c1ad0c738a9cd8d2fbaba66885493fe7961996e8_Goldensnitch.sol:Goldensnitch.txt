@@ -1,0 +1,3 @@
+```json
+{"related": ["transfer", "transferFrom", "recoverLosteth", "recoverLostTokens"], "unrelated": ["Snitch", "allowance", "approve", "approveMax", "authorize", "autoLiquidityReceiver", "balanceOf", "biggestBuy", "decimals", "epochReset", "getCirculatingSupply", "getOwner", "hasSold", "isAuthorized", "isFeeExempt", "isOwner", "isTxLimitExempt", "lastSnitchChange", "liquidityFee", "marketingFee", "marketingWallet", "name", "pair", "resetPeriod", "router", "setFeeReceivers", "setFees", "setIsFeeExempt", "setIsTxLimitExempt", "setMaxTxAmount", "setResetPeriodInSeconds", "setSwapBackSettings", "setSwapThreshold", "snitchFee", "swapAndLiquifyEnabled", "swapThreshold", "symbol", "totalFee", "totalFeeIfSelling", "totalSupply", "transferOwnership", "unauthorize"]}
+```

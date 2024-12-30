@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["claimEnergy", "topupEnergy", "withdrawEther", "topupEnergyByToken"],
+  "unrelated": ["moderators", "claimTime", "getPlayerEnergy", "safeDeduct", "setPaidPackage", "UpdateMaintaining", "totalModerators", "claimMaxAmount", "AddModerator", "claimAmount", "owner", "paymentContract", "RemoveModerator", "getClaimableAmount", "setConfig", "isMaintaining", "ChangeOwner"]
+}
+```

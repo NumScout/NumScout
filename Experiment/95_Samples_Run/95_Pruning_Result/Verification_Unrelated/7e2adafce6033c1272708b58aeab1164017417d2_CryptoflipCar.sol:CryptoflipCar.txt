@@ -1,0 +1,30 @@
+```json
+{
+  "correct": [
+    "getCarCount",
+    "InitiateWhaleCard",
+    "InitiateCars",
+    "getCompany",
+    "getCar",
+    "InitiateCompanies",
+    "getWhaleCard",
+    "getMake",
+    "setReleaseMake",
+    "GetIsPauded",
+    "getAdv",
+    "setReleaseCar",
+    "setReleaseCompany",
+    "getMakeCount",
+    "getCompanyCount",
+    "InitiateMakes",
+    "addMake",
+    "addCompany",
+    "addCar"
+  ],
+  "wrong": [
+    "purchaseAdv",
+    "purchaseWhaleCard",
+    "purchaseCard"
+  ]
+}
+```

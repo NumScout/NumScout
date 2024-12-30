@@ -1,0 +1,16 @@
+```json
+{
+  "correct": [
+    "returnTokensToExchange",
+    "withdraw",
+    "withdrawPart",
+    "deposit",
+    "localBuy",
+    "transferBond",
+    "extDistributeBondFund"
+  ],
+  "wrong": [
+    "refund"
+  ]
+}
+```

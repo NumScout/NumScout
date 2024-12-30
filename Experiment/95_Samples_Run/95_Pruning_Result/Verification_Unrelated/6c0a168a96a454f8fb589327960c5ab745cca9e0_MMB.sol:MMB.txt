@@ -1,0 +1,40 @@
+```json
+{
+  "correct": [
+    "approve",
+    "balanceOf",
+    "baseExtension",
+    "baseURI",
+    "getApproved",
+    "getOwnershipData",
+    "isApprovedForAll",
+    "maxPerTx",
+    "maxSupply",
+    "maxTxForFreeMints",
+    "mintEnabled",
+    "name",
+    "nextOwnerToExplicitlySet",
+    "numberMinted",
+    "owner",
+    "ownerOf",
+    "renounceOwnership",
+    "safeTransferFrom",
+    "setApprovalForAll",
+    "setBaseExtension",
+    "setBaseURI",
+    "supportsInterface",
+    "symbol",
+    "toggleMinting",
+    "tokenByIndex",
+    "tokenOfOwnerByIndex",
+    "tokenURI",
+    "totalFree",
+    "totalSupply",
+    "transferOwnership"
+  ],
+  "wrong": [
+    "safeTransferFrom",
+    "transferFrom"
+  ]
+}
+```

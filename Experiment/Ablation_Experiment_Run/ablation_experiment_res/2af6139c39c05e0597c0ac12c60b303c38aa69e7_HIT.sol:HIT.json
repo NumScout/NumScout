@@ -1,0 +1,75 @@
+{
+ "evm_code_coverage": "98.7",
+ "instructions": "3365",
+ "time": "921.5727045536041",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [
+   [
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:126:9: Warning: Exchange Problem.\n        getTokens()",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:144:9: Warning: Exchange Problem.\n        distr(investor, toGive)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:113:28: Warning: Exchange Problem.\n        totalDistributed = totalDistributed.add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:114:26: Warning: Exchange Problem.\n        totalRemaining = totalRemaining.sub(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:115:25: Warning: Exchange Problem.\n        balances[_to] = balances[_to].add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:117:14: Warning: Exchange Problem.\n        emit Transfer(address(0), _to, _amount)"
+   ],
+   [
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:144:9: Warning: Exchange Problem.\n        distr(investor, toGive)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:113:28: Warning: Exchange Problem.\n        totalDistributed = totalDistributed.add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:114:26: Warning: Exchange Problem.\n        totalRemaining = totalRemaining.sub(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:115:25: Warning: Exchange Problem.\n        balances[_to] = balances[_to].add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:117:14: Warning: Exchange Problem.\n        emit Transfer(address(0), _to, _amount)"
+   ]
+  ],
+  "exchange_rounding": [
+   [
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:126:9: Warning: Exchange Rounding.\n        getTokens()",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:144:9: Warning: Exchange Rounding.\n        distr(investor, toGive)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:113:28: Warning: Exchange Rounding.\n        totalDistributed = totalDistributed.add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:114:26: Warning: Exchange Rounding.\n        totalRemaining = totalRemaining.sub(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:115:25: Warning: Exchange Rounding.\n        balances[_to] = balances[_to].add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:117:14: Warning: Exchange Rounding.\n        emit Transfer(address(0), _to, _amount)"
+   ],
+   [
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:144:9: Warning: Exchange Rounding.\n        distr(investor, toGive)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:113:28: Warning: Exchange Rounding.\n        totalDistributed = totalDistributed.add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:114:26: Warning: Exchange Rounding.\n        totalRemaining = totalRemaining.sub(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:115:25: Warning: Exchange Rounding.\n        balances[_to] = balances[_to].add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:117:14: Warning: Exchange Rounding.\n        emit Transfer(address(0), _to, _amount)"
+   ]
+  ],
+  "profit_opportunity": [
+   [
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:126:9: Warning: Profit Opportunity.\n        getTokens()",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:144:9: Warning: Profit Opportunity.\n        distr(investor, toGive)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:113:28: Warning: Profit Opportunity.\n        totalDistributed = totalDistributed.add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:114:26: Warning: Profit Opportunity.\n        totalRemaining = totalRemaining.sub(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:115:25: Warning: Profit Opportunity.\n        balances[_to] = balances[_to].add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:117:14: Warning: Profit Opportunity.\n        emit Transfer(address(0), _to, _amount)"
+   ],
+   [
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:144:9: Warning: Profit Opportunity.\n        distr(investor, toGive)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:113:28: Warning: Profit Opportunity.\n        totalDistributed = totalDistributed.add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:114:26: Warning: Profit Opportunity.\n        totalRemaining = totalRemaining.sub(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:115:25: Warning: Profit Opportunity.\n        balances[_to] = balances[_to].add(_amount)",
+    "ab_95_samples/2af6139c39c05e0597c0ac12c60b303c38aa69e7_HIT.sol:117:14: Warning: Profit Opportunity.\n        emit Transfer(address(0), _to, _amount)"
+   ]
+  ]
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": true,
+  "exchange_rounding": true,
+  "profit_opportunity": true
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 13,
+ "pub_fun_count": 21
+}

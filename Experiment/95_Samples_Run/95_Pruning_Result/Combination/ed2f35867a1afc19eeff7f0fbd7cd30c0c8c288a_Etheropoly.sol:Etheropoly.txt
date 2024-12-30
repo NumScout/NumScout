@@ -1,0 +1,3 @@
+```json
+{"related": ["buy", "payCharity", "reinvest", "exit", "withdraw", "sell", "transfer", "transferAndCall"], "unrelated": ["dividendsOf", "name", "canAcceptTokens_", "calculateTokensReceived", "totalSupply", "calculateEthereumReceived", "onlyAmbassadors", "setCanAcceptTokens", "decimals", "etherToSendCharity", "sellPrice", "stakingRequirement", "myDividends", "totalEthereumBalance", "balanceOf", "administrators", "setStakingRequirement", "buyPrice", "setAdministrator", "totalEthCharityRecieved", "myTokens", "symbol", "disableInitialStage", "giveEthCharityAddress", "setSymbol", "setName", "totalEthCharityCollected"]}
+```

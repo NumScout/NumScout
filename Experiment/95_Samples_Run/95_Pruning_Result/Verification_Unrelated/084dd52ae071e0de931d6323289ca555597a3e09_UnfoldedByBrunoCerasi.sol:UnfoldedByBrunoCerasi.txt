@@ -1,0 +1,40 @@
+```json
+{
+  "correct": [
+    "MAX_MINTS_PER_TX",
+    "NUM_FREE_MINTS",
+    "PUBLIC_SALE_PRICE",
+    "getBaseURI",
+    "isApprovedForAll",
+    "isPublicSaleActive",
+    "maxSupply",
+    "nextOwnerToExplicitlySet",
+    "royaltyInfo",
+    "setBaseURI",
+    "setIsOpenSeaProxyActive",
+    "setIsPublicSaleActive",
+    "setNumFreeMints",
+    "supportsInterface",
+    "tokenURI",
+    "totalSupply",
+    "transferOwnership",
+    "withdrawTokens",
+    "airdrop"
+  ],
+  "wrong": [
+    "approve",
+    "balanceOf",
+    "getApproved",
+    "isApprovedForAll",
+    "name",
+    "owner",
+    "ownerOf",
+    "renounceOwnership",
+    "setApprovalForAll",
+    "symbol",
+    "tokenByIndex",
+    "tokenOfOwnerByIndex",
+    "withdraw"
+  ]
+}
+```

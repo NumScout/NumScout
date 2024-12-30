@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["buy", "transfer", "transferEth", "transferFrom"],
+  "wrong": []
+}
+```

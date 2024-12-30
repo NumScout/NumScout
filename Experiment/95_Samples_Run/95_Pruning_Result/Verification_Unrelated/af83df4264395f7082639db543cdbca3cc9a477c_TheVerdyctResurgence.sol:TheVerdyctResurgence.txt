@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["FREE_CLAIM_LIMIT", "MAX_FREE_MINT", "MAX_NFT_PER_TRAN", "MAX_PER_WALLET", "balanceOf", "contractURI", "finalizeMetadata", "getApproved", "isApprovedForAll", "isMetadataFinal", "isPublicMint", "isValid", "maxSupply", "mintedCount", "name", "owner", "ownerOf", "prerevealURL", "reduceSupply", "renounceOwnership", "reveal", "root", "setCost", "setFreeClaimLimit", "setNumFreeMints", "setPrereveal", "setPublicState", "setRoot", "supportsInterface", "symbol", "tokenURI", "totalSupply", "transferOwnership"],
+  "wrong": []
+}
+```

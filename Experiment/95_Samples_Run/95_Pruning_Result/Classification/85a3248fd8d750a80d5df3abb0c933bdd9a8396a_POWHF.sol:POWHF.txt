@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["buy", "reinvest", "exit", "withdraw", "sell", "transfer"],
+  "unrelated": ["dividendsOf", "name", "calculateTokensReceived", "totalSupply", "calculateEthereumReceived", "decimals", "sellPrice", "stakingRequirement", "myDividends", "totalEthereumBalance", "balanceOf", "buyPrice", "myTokens", "symbol"]
+}
+```

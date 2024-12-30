@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["_MeMWalletAddress", "_getETHBalance", "_marketingWalletAddress", "_setMaxTxAmount", "_setMeMWallet", "_setTaxFee", "_setTeamFee", "allowance", "approve", "balanceOf", "decimals", "decreaseAllowance", "excludeAccount", "geUnlockTime", "includeAccount", "increaseAllowance", "isExcluded", "isExcludedFromFee", "lock", "name", "owner", "reflectionFromToken", "renounceOwnership", "setExcludeFromFee", "setSwapEnabled", "swapEnabled", "symbol", "tokenFromReflection", "totalFees", "totalSupply", "transferOwnership", "uniswapV2Pair", "uniswapV2Router", "unlock"],
+  "wrong": ["balanceOf", "transfer"]
+}
+```

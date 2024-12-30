@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["mint", "treasuryMint", "withdraw", "whitelistMint"],
+  "wrong": []
+}
+```

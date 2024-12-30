@@ -1,0 +1,66 @@
+{
+ "evm_code_coverage": "81.5",
+ "instructions": "8418",
+ "time": "1493.2490904331207",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:455:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:457:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:440:9: Warning: Indivisible Amount.\n        payable(marketingAddress).transfer(marketingShare)"
+   ],
+   [
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:455:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:457:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:441:9: Warning: Indivisible Amount.\n        payable(developmentAddress).transfer(developmentShare)"
+   ],
+   [
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:455:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:455:55: Warning: Indivisible Amount.\n        require(_msgSender() == developmentAddress || _msgSender()",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:457:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:440:9: Warning: Indivisible Amount.\n        payable(marketingAddress).transfer(marketingShare)"
+   ],
+   [
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:455:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:455:55: Warning: Indivisible Amount.\n        require(_msgSender() == developmentAddress || _msgSender()",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:457:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:438:34: Warning: Indivisible Amount.\n        uint256 marketingShare = distributionEth.mul(distribution.marketing).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:439:36: Warning: Indivisible Amount.\n        uint256 developmentShare = distributionEth.mul(distribution.development).div(100)",
+    "ab_95_samples/6Fb259f21359E740e6a96Be095f81212A80e831e_DICKEY.sol:441:9: Warning: Indivisible Amount.\n        payable(developmentAddress).transfer(developmentShare)"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 35,
+ "pub_fun_count": 35
+}

@@ -1,0 +1,41 @@
+{
+ "evm_code_coverage": "63.8",
+ "instructions": "6405",
+ "time": "710.9091279506683",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:365:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:367:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:304:34: Warning: Indivisible Amount.\n        _feeAddrWallet1.transfer(amount.div(2)",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:304:9: Warning: Indivisible Amount.\n        _feeAddrWallet1.transfer(amount.div(2))"
+   ],
+   [
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:365:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:367:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:304:34: Warning: Indivisible Amount.\n        _feeAddrWallet1.transfer(amount.div(2)",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:305:34: Warning: Indivisible Amount.\n        _feeAddrWallet2.transfer(amount.div(2)",
+    "ab_95_samples/638a3d66e4a6a6db13fae6050b36f7067ccaacf9_FusionSSJ2.sol:305:9: Warning: Indivisible Amount.\n        _feeAddrWallet2.transfer(amount.div(2))"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 26,
+ "pub_fun_count": 17
+}

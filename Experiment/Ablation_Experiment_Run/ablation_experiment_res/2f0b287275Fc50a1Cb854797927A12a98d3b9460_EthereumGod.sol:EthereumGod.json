@@ -1,0 +1,59 @@
+{
+ "evm_code_coverage": "26.8",
+ "instructions": "10384",
+ "time": "1895.163028717041",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [
+   [
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:769:9: Warning: Precision Loss Trend.\n        _transfer(sender, recipient, amount)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:902:22: Warning: Precision Loss Trend.\n        if(sender != owner()",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:910:40: Warning: Precision Loss Trend.\n        uint256 contractTokenBalance = balanceOf(address(this))",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:751:16: Warning: Precision Loss Trend.\n        return tokenFromReflection(_rOwned[account])",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:818:32: Warning: Precision Loss Trend.\n        uint256 currentRate =  _getRate()",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:1117:46: Warning: Precision Loss Trend.\n        (uint256 rSupply, uint256 tSupply) = _getCurrentSupply()",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:1129:23: Warning: Precision Loss Trend.\n        if (rSupply < _rTotal.div(_tTotal)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:1118:16: Warning: Precision Loss Trend.\n        return rSupply.div(tSupply)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:819:16: Warning: Precision Loss Trend.\n        return rAmount.div(currentRate)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:921:13: Warning: Precision Loss Trend.\n            swapAndLiquify(contractTokenBalance)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:937:75: Warning: Precision Loss Trend.\n        uint256 toMarketing = contractTokenBalance.mul(_marketingFee).div(_marketingFee.add(_liquidityFee)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:937:31: Warning: Precision Loss Trend.\n        uint256 toMarketing = contractTokenBalance.mul(_marketingFee)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:937:31: Warning: Precision Loss Trend.\n        uint256 toMarketing = contractTokenBalance.mul(_marketingFee).div(_marketingFee.add(_liquidityFee))",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:938:29: Warning: Precision Loss Trend.\n        uint256 toLiquify = contractTokenBalance.sub(toMarketing)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:941:24: Warning: Precision Loss Trend.\n        uint256 half = toLiquify.div(2)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:942:29: Warning: Precision Loss Trend.\n        uint256 otherHalf = toLiquify.sub(half)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:951:32: Warning: Precision Loss Trend.\n        uint256 toSwapForEth = half.add(toMarketing)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:952:9: Warning: Precision Loss Trend.\n        swapTokensForEth(toSwapForEth)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:972:9: Warning: Precision Loss Trend.\n        _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:975:9: Warning: Precision Loss Trend.\n        uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n        ^\nSpanning multiple lines.",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:955:28: Warning: Precision Loss Trend.\n        uint256 fromSwap = address(this).balance.sub(initialBalance)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:956:30: Warning: Precision Loss Trend.\n        uint256 newBalance = fromSwap.mul(half)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:956:30: Warning: Precision Loss Trend.\n        uint256 newBalance = fromSwap.mul(half).div(toSwapForEth)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:959:9: Warning: Precision Loss Trend.\n        addLiquidity(otherHalf, newBalance)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:986:9: Warning: Precision Loss Trend.\n        _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:994:13: Warning: Precision Loss Trend.\n            owner()",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:963:28: Warning: Precision Loss Trend.\n        sendETHToMarketing(fromSwap.sub(newBalance)",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:963:9: Warning: Precision Loss Trend.\n        sendETHToMarketing(fromSwap.sub(newBalance))",
+    "ab_95_samples/2f0b287275Fc50a1Cb854797927A12a98d3b9460_EthereumGod.sol:1000:9: Warning: Precision Loss Trend.\n        _marketingWalletAddress.transfer(amount)"
+   ]
+  ],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": true,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 31,
+ "pub_fun_count": 38
+}

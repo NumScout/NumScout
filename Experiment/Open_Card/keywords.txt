@@ -1,0 +1,26 @@
+precision
+round
+floor
+ceil
+div
+division
+divCeil
+divFloor
+divRound
+overflow
+underflow
+truncation
+precision loss
+rounding error
+rounding issue
+calculations
+small amount
+little amount
+minor amount
+retention
+indivisible
+inexhaustible
+miscalculation
+floating
+arithmetic error
+arithmetic issue

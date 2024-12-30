@@ -1,0 +1,31 @@
+```json
+{
+  "correct": [
+    "_getETHBalance",
+    "_marketingWalletAddress",
+    "_teamWalletAddress",
+    "allowance",
+    "decimals",
+    "geUnlockTime",
+    "includeAccount",
+    "isExcluded",
+    "isExcludedFromFee",
+    "lock",
+    "name",
+    "owner",
+    "renounceOwnership",
+    "setExcludeFromFee",
+    "setSwapEnabled",
+    "swapEnabled",
+    "symbol",
+    "totalSupply",
+    "transferOwnership",
+    "uniswapV2Pair",
+    "uniswapV2Router",
+    "unlock"
+  ],
+  "wrong": [
+    "excludeAccount"
+  ]
+}
+```

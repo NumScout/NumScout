@@ -1,0 +1,1 @@
+{"related": ["buy", "transfer", "transferEth", "transferFrom"], "unrelated": ["allowance", "approve", "authorizedAddress", "balanceOf", "closePresell", "decimals", "getAddress", "getEthBalance", "getRate", "name", "openPresell", "presellStatus", "supply", "symbol", "totalSupply"]}

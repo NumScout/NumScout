@@ -1,0 +1,93 @@
+{
+ "evm_code_coverage": "32.4",
+ "instructions": "7476",
+ "time": "1801.6971065998077",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [
+   [
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:269:16: Warning: Operator Order Issue.\n        return _transferFrom(sender, recipient, amount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:299:9: Warning: Operator Order Issue.\n        checkTxLimit(sender, amount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:301:12: Warning: Operator Order Issue.\n        if(shouldSwapBack()",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:304:29: Warning: Operator Order Issue.\n        _balances[sender] = _balances[sender].sub(amount, \"Insufficient Balance\")",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:306:36: Warning: Operator Order Issue.\n        uint256 amountReceived = (!shouldTakeFee(sender)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:306:62: Warning: Operator Order Issue.\n        uint256 amountReceived = (!shouldTakeFee(sender) || !shouldTakeFee(recipient)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:306:99: Warning: Operator Order Issue.\n        uint256 amountReceived = (!shouldTakeFee(sender) || !shouldTakeFee(recipient)) ? amount : takeFee(sender, amount,(recipient == pair))",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:348:29: Warning: Operator Order Issue.\n        uint256 feeAmount = amount.div(feeDenominator * 100)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:348:29: Warning: Operator Order Issue.\n        uint256 feeAmount = amount.div(feeDenominator * 100).mul(totalFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:348:29: Warning: Operator Order Issue.\n        uint256 feeAmount = amount.div(feeDenominator * 100).mul(totalFee).mul(multiplier)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:350:36: Warning: Operator Order Issue.\n        _balances[address(this)] = _balances[address(this)].add(feeAmount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:351:14: Warning: Operator Order Issue.\n        emit Transfer(sender, address(this), feeAmount)"
+   ],
+   [
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:269:16: Warning: Operator Order Issue.\n        return _transferFrom(sender, recipient, amount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:299:9: Warning: Operator Order Issue.\n        checkTxLimit(sender, amount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:301:12: Warning: Operator Order Issue.\n        if(shouldSwapBack()",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:304:29: Warning: Operator Order Issue.\n        _balances[sender] = _balances[sender].sub(amount, \"Insufficient Balance\")",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:306:36: Warning: Operator Order Issue.\n        uint256 amountReceived = (!shouldTakeFee(sender)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:306:62: Warning: Operator Order Issue.\n        uint256 amountReceived = (!shouldTakeFee(sender) || !shouldTakeFee(recipient)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:306:99: Warning: Operator Order Issue.\n        uint256 amountReceived = (!shouldTakeFee(sender) || !shouldTakeFee(recipient)) ? amount : takeFee(sender, amount,(recipient == pair))",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:348:29: Warning: Operator Order Issue.\n        uint256 feeAmount = amount.div(feeDenominator * 100)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:348:29: Warning: Operator Order Issue.\n        uint256 feeAmount = amount.div(feeDenominator * 100).mul(totalFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:348:29: Warning: Operator Order Issue.\n        uint256 feeAmount = amount.div(feeDenominator * 100).mul(totalFee).mul(multiplier)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:350:36: Warning: Operator Order Issue.\n        _balances[address(this)] = _balances[address(this)].add(feeAmount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:353:16: Warning: Operator Order Issue.\n        return amount.sub(feeAmount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:307:32: Warning: Operator Order Issue.\n        _balances[recipient] = _balances[recipient].add(amountReceived)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:309:14: Warning: Operator Order Issue.\n        emit Transfer(sender, recipient, amountReceived)"
+   ]
+  ],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:269:16: Warning: Indivisible Amount.\n        return _transferFrom(sender, recipient, amount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:299:9: Warning: Indivisible Amount.\n        checkTxLimit(sender, amount)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:301:12: Warning: Indivisible Amount.\n        if(shouldSwapBack()",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:301:31: Warning: Indivisible Amount.\n        if(shouldSwapBack()){ swapBack()",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:373:39: Warning: Indivisible Amount.\n        uint256 dynamicLiquidityFee = isOverLiquified(targetLiquidity, targetLiquidityDenominator)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:468:16: Warning: Indivisible Amount.\n        return getLiquidityBacking(accuracy)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:464:57: Warning: Indivisible Amount.\n        return accuracy.mul(balanceOf(pair).mul(2)).div(getCirculatingSupply()",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:460:54: Warning: Indivisible Amount.\n        return _totalSupply.sub(balanceOf(DEAD)).sub(balanceOf(ZERO)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:460:33: Warning: Indivisible Amount.\n        return _totalSupply.sub(balanceOf(DEAD)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:460:16: Warning: Indivisible Amount.\n        return _totalSupply.sub(balanceOf(DEAD))",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:460:16: Warning: Indivisible Amount.\n        return _totalSupply.sub(balanceOf(DEAD)).sub(balanceOf(ZERO))",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:464:29: Warning: Indivisible Amount.\n        return accuracy.mul(balanceOf(pair)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:464:29: Warning: Indivisible Amount.\n        return accuracy.mul(balanceOf(pair).mul(2)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:464:16: Warning: Indivisible Amount.\n        return accuracy.mul(balanceOf(pair).mul(2))",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:464:16: Warning: Indivisible Amount.\n        return accuracy.mul(balanceOf(pair).mul(2)).div(getCirculatingSupply())",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:374:35: Warning: Indivisible Amount.\n        uint256 amountToLiquify = swapThreshold.mul(dynamicLiquidityFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:374:35: Warning: Indivisible Amount.\n        uint256 amountToLiquify = swapThreshold.mul(dynamicLiquidityFee).div(totalFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:374:35: Warning: Indivisible Amount.\n        uint256 amountToLiquify = swapThreshold.mul(dynamicLiquidityFee).div(totalFee).div(2)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:375:32: Warning: Indivisible Amount.\n        uint256 amountToSwap = swapThreshold.sub(amountToLiquify)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:383:9: Warning: Indivisible Amount.\n        router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n        ^\nSpanning multiple lines.",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:391:29: Warning: Indivisible Amount.\n        uint256 amountETH = address(this).balance.sub(balanceBefore)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:393:44: Warning: Indivisible Amount.\n        uint256 totalETHFee = totalFee.sub(dynamicLiquidityFee.div(2)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:393:31: Warning: Indivisible Amount.\n        uint256 totalETHFee = totalFee.sub(dynamicLiquidityFee.div(2))",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:395:38: Warning: Indivisible Amount.\n        uint256 amountETHLiquidity = amountETH.mul(dynamicLiquidityFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:395:38: Warning: Indivisible Amount.\n        uint256 amountETHLiquidity = amountETH.mul(dynamicLiquidityFee).div(totalETHFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:395:38: Warning: Indivisible Amount.\n        uint256 amountETHLiquidity = amountETH.mul(dynamicLiquidityFee).div(totalETHFee).div(2)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:396:38: Warning: Indivisible Amount.\n        uint256 amountETHMarketing = amountETH.mul(marketingFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:396:38: Warning: Indivisible Amount.\n        uint256 amountETHMarketing = amountETH.mul(marketingFee).div(totalETHFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:396:38: Warning: Indivisible Amount.\n        uint256 amountETHMarketing = amountETH.mul(marketingFee).div(totalETHFee).div(2)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:397:32: Warning: Indivisible Amount.\n        uint256 amountETHDev = amountETH.mul(devFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:397:32: Warning: Indivisible Amount.\n        uint256 amountETHDev = amountETH.mul(devFee).div(totalETHFee)",
+    "ex_95_samples/0e90b59e6b1f28d89a647f3224e24af44e824baf_UshiOni.sol:399:30: Warning: Indivisible Amount.\n        (bool tmpSuccess,) = payable(marketingFeeReceiver).call{value: amountETHMarketing, gas: 30000}(\"\")"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": true,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 41,
+ "pub_fun_count": 40
+}

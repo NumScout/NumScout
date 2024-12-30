@@ -1,0 +1,1 @@
+{"related": ["WithdrawTokens", "TransferTokens", "WithdrawETH"], "unrelated": ["beneficiary", "ChangeEthPrice", "coldWallet", "tokenReward", "bonus", "amountRaised", "price", "ChangeBonus", "minSaleAmount", "ethPrice"]}

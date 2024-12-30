@@ -1,0 +1,3 @@
+```json
+{"related": ["mintHippos", "reserveHippos", "withdraw"], "unrelated": ["approve", "balanceOf", "baseURI", "exists", "getApproved", "isApprovedForAll", "maxNftSupply", "maxToMint", "mintPrice", "name", "owner", "ownerOf", "renounceOwnership", "saleIsActive", "setApprovalForAll", "setBaseURI", "setMaxNftSupply", "setMaxToMint", "setMintPrice", "supportsInterface", "symbol", "tokenByIndex", "tokenOfOwnerByIndex", "tokenURI", "tokensOfOwner", "totalSupply", "transferFrom", "transferOwnership", "updateSaleState", "safeTransferFrom"]}
+```

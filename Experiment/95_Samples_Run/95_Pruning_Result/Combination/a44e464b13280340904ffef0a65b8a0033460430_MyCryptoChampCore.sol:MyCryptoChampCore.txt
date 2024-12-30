@@ -1,0 +1,3 @@
+```json
+{"related": ["openLootbox", "withdrawChamp", "buyChamp", "withdrawToAddress", "setItemForSale", "buyItem", "setChampForSale"], "unrelated": ["getItemsForSale", "itemsForSaleCount", "itemToOwner", "champsForSaleCount", "addressInfo", "getItemsByOwner", "getChampsCount", "forgeItems", "getChampStats", "putOn", "giveChamp", "createChamp", "cancelChampSale", "changePlayersName", "triggerPause", "champToName", "getChampReward", "changeChampsName", "leaderboard", "items", "cancelItemSale", "champs", "setCreateChampFee", "giveItem", "takeOffItem", "setLootboxFee", "attack", "getChampsByOwner", "transferOwnership", "champToOwner"]}
+```

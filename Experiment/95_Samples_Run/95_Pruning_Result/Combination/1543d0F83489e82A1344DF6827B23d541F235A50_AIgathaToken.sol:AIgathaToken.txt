@@ -1,0 +1,3 @@
+```json
+{"related": ["approve", "transferFrom", "withdraw", "burn", "finalize", "burnFrom", "transfer", "push"], "unrelated": ["name", "saleCap", "startDate", "totalSupply", "decimals", "balanceOf", "weiRaised", "threshold", "wallet", "allowed", "saleActive", "extended", "owner", "transferable", "symbol", "getRateAt", "endDate", "approveAndCall", "allowance", "extendSaleTime", "transferOwnership"]}
+```

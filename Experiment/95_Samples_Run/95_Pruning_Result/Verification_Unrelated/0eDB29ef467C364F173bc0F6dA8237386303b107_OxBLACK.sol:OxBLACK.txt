@@ -1,0 +1,3 @@
+```JSON
+{"correct": ["actualCollectionSize", "approve", "balanceOf", "devMints", "freeMints", "getApproved", "getOwnershipData", "isApprovedForAll", "maxPerFreeMint", "maxPerTx", "maxPerWallet", "merkleRoot", "name", "nextOwnerToExplicitlySet", "ogMintActive", "owner", "ownerOf", "publicSaleActive", "renounceOwnership", "setApprovalForAll", "setBaseURI", "setMerkleRoot", "setOwnersExplicit", "supportsInterface", "symbol", "tokenByIndex", "tokenOfOwnerByIndex", "tokenURI", "totalSupply", "transferOwnership", "walletQuantity"], "wrong": ["publicMintPrice", "publicSaleActive", "ogMintActive", "withdrawMoney"]}
+```

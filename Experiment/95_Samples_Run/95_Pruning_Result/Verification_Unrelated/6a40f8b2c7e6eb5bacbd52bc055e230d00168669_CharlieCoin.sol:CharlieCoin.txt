@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["dividendsOf", "name", "approve", "calculateTokensReceived", "totalSupply", "calculateEthereumReceived", "onlyAmbassadors", "decimals", "administrators", "sellPrice", "stakingRequirement", "myDividends", "totalEthereumBalance", "balanceOf", "setStakingRequirement", "buyPrice", "setAdministrator", "myTokens", "symbol", "setSymbol", "setName"],
+  "wrong": ["transferFrom"]
+}
+```

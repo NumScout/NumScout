@@ -1,0 +1,31 @@
+```json
+{
+    "correct": [
+        "getItemsForSale",
+        "itemsForSaleCount",
+        "itemToOwner",
+        "champsForSaleCount",
+        "addressInfo",
+        "getItemsByOwner",
+        "getChampsCount",
+        "getChampStats",
+        "cancelChampSale",
+        "changePlayersName",
+        "triggerPause",
+        "champToName",
+        "getChampReward",
+        "changeChampsName",
+        "leaderboard",
+        "items",
+        "cancelItemSale",
+        "champs",
+        "setCreateChampFee",
+        "setLootboxFee",
+        "attack",
+        "getChampsByOwner",
+        "transferOwnership",
+        "champToOwner"
+    ],
+    "wrong": []
+}
+```

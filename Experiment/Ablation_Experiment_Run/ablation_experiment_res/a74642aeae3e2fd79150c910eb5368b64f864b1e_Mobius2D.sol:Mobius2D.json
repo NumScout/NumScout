@@ -1,0 +1,50 @@
+{
+ "evm_code_coverage": "71.5",
+ "instructions": "8153",
+ "time": "1800.1016812324524",
+ "analysis": {
+  "div_in_path": [
+   [
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:369:9: Warning: Div In Path.\n        buyShares(address(0x0))",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:377:13: Warning: Div In Path.\n            _purchase(rnd, msg.value, ref)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:488:29: Warning: Div In Path.\n        rnd.totalInvested = add(rnd.totalInvested, value)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:494:9: Warning: Div In Path.\n        _airDrop(rnd, value)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:496:9: Warning: Div In Path.\n        _splitRevenue(rnd, value, ref)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:612:28: Warning: Div In Path.\n            roundReturns = wmul(value, RETURNS_FRACTION - returnsOffset)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:615:24: Warning: Div In Path.\n        uint airdrop = wmul(value, AIRDROP_FRACTION)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:616:24: Warning: Div In Path.\n        uint jackpot = wmul(value, JACKPOT_FRACTION)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:634:13: Warning: Div In Path.\n            _disburseReturns(rnd, roundReturns)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:643:28: Warning: Div In Path.\n        unclaimedReturns = add(unclaimedReturns, value)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:651:17: Warning: Div In Path.\n                mul(value, MULTIPLIER)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:649:43: Warning: Div In Path.\n            rnd.cumulativeReturnsPoints = add(\n            ^\nSpanning multiple lines.",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:637:26: Warning: Div In Path.\n        rnd.airdropPot = add(rnd.airdropPot, airdrop)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:638:23: Warning: Div In Path.\n        rnd.jackpot = add(rnd.jackpot, jackpot)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:639:22: Warning: Div In Path.\n        devBalance = add(devBalance, dev)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:498:9: Warning: Div In Path.\n        _updateReturns(msg.sender, rnd)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:567:28: Warning: Div In Path.\n        uint outstanding = _outstandingReturns(_investor, rnd)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:582:27: Warning: Div In Path.\n        uint newReturns = sub(\n        ^\nSpanning multiple lines.",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:591:27: Warning: Div In Path.\n            outstanding = mul(newReturns, rnd.investors[_investor].shares)",
+    "ab_replace/a74642aeae3e2fd79150c910eb5368b64f864b1e_Mobius2D.sol:570:9: Warning: Div In Path.\n        if (outstanding > 0) {\n        ^\nSpanning multiple lines."
+   ]
+  ],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 4,
+ "storage_var_count": 34,
+ "pub_fun_count": 48
+}

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["approve", "transferFrom", "withdraw", "burn", "adminClaimAirdrop", "adminClaimAirdropMultiple", "updateTokensPerEth", "transfer", "getTokens"],
+  "wrong": ["withdrawAltcoinTokens", "finishDistribution"]
+}
+```

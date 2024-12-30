@@ -1,0 +1,3 @@
+```json
+{"correct": ["renounceOwnership", "owner", "transferOwnership"], "wrong": ["allowance"]}
+```

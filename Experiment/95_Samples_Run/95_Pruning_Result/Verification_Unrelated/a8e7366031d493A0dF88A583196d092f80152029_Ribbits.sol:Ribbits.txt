@@ -1,0 +1,32 @@
+```json
+{
+  "correct": [
+    "allClaimeds",
+    "allInfoFor",
+    "balanceOf",
+    "baseTokenURI",
+    "compositeHash",
+    "contractURI",
+    "getApproved",
+    "getClaimed",
+    "getName",
+    "getOwnerRibbitsTable",
+    "getRibbit",
+    "getRibbits",
+    "getRibbitsTable",
+    "isApprovedForAll",
+    "name",
+    "owner",
+    "ownerOf",
+    "setMetadata",
+    "setOwner",
+    "supportsInterface",
+    "symbol",
+    "tokenByIndex",
+    "tokenOfOwnerByIndex",
+    "tokenURI",
+    "totalSupply"
+  ],
+  "wrong": []
+}
+```

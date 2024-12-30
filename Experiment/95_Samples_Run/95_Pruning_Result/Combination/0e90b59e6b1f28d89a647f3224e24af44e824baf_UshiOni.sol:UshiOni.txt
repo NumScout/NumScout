@@ -1,0 +1,3 @@
+```json
+{"related": ["approve", "approveMax", "balanceOf", "transfer", "transferFrom", "refresh", "validate"], "unrelated": ["Approve", "Creamify", "_maxTxAmount", "_maxWalletToken", "allowance", "buyCooldownEnabled", "cooldownEnabled", "cooldownTimerInterval", "decimals", "getCirculatingSupply", "getLiquidityBacking", "getOwner", "isCreamy", "isOverLiquified", "isOwner", "name", "pair", "renounce", "router", "setFeeReceivers", "setFees", "setIsFeeExempt", "setIsTimelockExempt", "setIsTxLimitExempt", "setMaxWalletPercent", "setSwapBackSettings", "setTargetLiquidity", "setTxLimit", "swapEnabled", "swapThreshold", "symbol", "totalSupply", "tradingOpen"]}
+```

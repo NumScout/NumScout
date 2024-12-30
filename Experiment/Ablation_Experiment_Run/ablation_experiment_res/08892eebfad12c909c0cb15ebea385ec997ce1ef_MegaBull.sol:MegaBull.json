@@ -1,0 +1,45 @@
+{
+ "evm_code_coverage": "20.6",
+ "instructions": "9344",
+ "time": "1852.9596393108368",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:756:13: Warning: Indivisible Amount.\n            _transfer(sender, recipient, amount)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:864:26: Warning: Indivisible Amount.\n            if(sender != owner()",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:871:44: Warning: Indivisible Amount.\n            uint256 contractTokenBalance = balanceOf(address(this))",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:738:20: Warning: Indivisible Amount.\n            return tokenFromReflection(_rOwned[account])",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:805:36: Warning: Indivisible Amount.\n            uint256 currentRate =  _getRate()",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:1038:50: Warning: Indivisible Amount.\n            (uint256 rSupply, uint256 tSupply) = _getCurrentSupply()",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:1050:27: Warning: Indivisible Amount.\n            if (rSupply < _rTotal.div(_tTotal)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:1039:20: Warning: Indivisible Amount.\n            return rSupply.div(tSupply)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:806:20: Warning: Indivisible Amount.\n            return rAmount.div(currentRate)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:881:17: Warning: Indivisible Amount.\n                swapTokensForEth(contractTokenBalance)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:907:13: Warning: Indivisible Amount.\n            _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:910:13: Warning: Indivisible Amount.\n            uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n            ^\nSpanning multiple lines.",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:885:21: Warning: Indivisible Amount.\n                    sendETHToTeam(address(this).balance)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:920:41: Warning: Indivisible Amount.\n            _teamWalletAddress.transfer(amount.div(2)",
+    "ab_95_samples/08892eebfad12c909c0cb15ebea385ec997ce1ef_MegaBull.sol:920:13: Warning: Indivisible Amount.\n            _teamWalletAddress.transfer(amount.div(2))"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 28,
+ "pub_fun_count": 39
+}

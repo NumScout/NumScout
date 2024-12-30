@@ -1,0 +1,3 @@
+```json
+{"correct": ["_liquidityFee", "_marketingFee", "_taxFee", "allowance", "approve", "cooldown", "cooldownStatus", "decimals", "decreaseAllowance", "excludeFromFee", "excludeFromReward", "geUnlockTime", "includeInFee", "includeInReward", "increaseAllowance", "isExcludedFromFee", "isExcludedFromReward", "lock", "name", "owner", "reflectionFromToken", "renounceOwnership", "setBlacklistStatus", "setCooldown", "setCooldownEnabled", "setLiquidityFeePercent", "setMarketingFeePercent", "setMaxBuyPercent", "setNumTokensSellToAddToLiquidity", "setSwapAndLiquifyEnabled", "setTaxFeePercent", "swapAndLiquifyEnabled", "symbol", "tokenFromReflection", "totalFees", "totalSupply", "transferOwnership", "uniswapV2Pair", "uniswapV2Router", "unlock"], "wrong": ["deliver"]}
+```

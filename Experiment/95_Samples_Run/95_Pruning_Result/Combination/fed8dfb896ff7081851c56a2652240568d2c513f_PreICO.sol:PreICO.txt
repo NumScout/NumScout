@@ -1,0 +1,3 @@
+```json
+{"related": ["buyTokens", "destroy", "transferOwnership"], "unrelated": ["initialized", "isActive", "initialTokens", "tokensAvailable", "RATE", "goalReached", "initialize", "owner", "START", "DAYS", "raisedAmount", "CAP"]}
+```

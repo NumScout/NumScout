@@ -1,0 +1,3 @@
+```json
+{"correct": ["name", "totalSupply", "decimals", "value", "disableWhitelist", "balanceOf", "symbol", "enableWhitelist", "distributionFinished", "getTokenBalance", "totalRemaining", "allowance", "totalDistributed", "transferOwnership", "blacklist"], "wrong": []}
+```

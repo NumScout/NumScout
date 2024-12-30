@@ -1,0 +1,63 @@
+{
+ "evm_code_coverage": "14.4",
+ "instructions": "9344",
+ "time": "1803.020567893982",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:760:13: Warning: Indivisible Amount.\n            _transfer(sender, recipient, amount)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:868:26: Warning: Indivisible Amount.\n            if(sender != owner()",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:875:44: Warning: Indivisible Amount.\n            uint256 contractTokenBalance = balanceOf(address(this))",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:742:20: Warning: Indivisible Amount.\n            return tokenFromReflection(_rOwned[account])",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:809:36: Warning: Indivisible Amount.\n            uint256 currentRate =  _getRate()",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:1042:50: Warning: Indivisible Amount.\n            (uint256 rSupply, uint256 tSupply) = _getCurrentSupply()",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:1054:27: Warning: Indivisible Amount.\n            if (rSupply < _rTotal.div(_tTotal)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:1043:20: Warning: Indivisible Amount.\n            return rSupply.div(tSupply)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:810:20: Warning: Indivisible Amount.\n            return rAmount.div(currentRate)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:885:17: Warning: Indivisible Amount.\n                swapTokensForEth(contractTokenBalance)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:911:13: Warning: Indivisible Amount.\n            _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:914:13: Warning: Indivisible Amount.\n            uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:889:21: Warning: Indivisible Amount.\n                    sendETHToTeam(address(this).balance)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:924:41: Warning: Indivisible Amount.\n            _teamWalletAddress.transfer(amount.div(2)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:924:13: Warning: Indivisible Amount.\n            _teamWalletAddress.transfer(amount.div(2))"
+   ],
+   [
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:760:13: Warning: Indivisible Amount.\n            _transfer(sender, recipient, amount)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:868:26: Warning: Indivisible Amount.\n            if(sender != owner()",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:875:44: Warning: Indivisible Amount.\n            uint256 contractTokenBalance = balanceOf(address(this))",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:742:20: Warning: Indivisible Amount.\n            return tokenFromReflection(_rOwned[account])",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:809:36: Warning: Indivisible Amount.\n            uint256 currentRate =  _getRate()",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:1042:50: Warning: Indivisible Amount.\n            (uint256 rSupply, uint256 tSupply) = _getCurrentSupply()",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:1054:27: Warning: Indivisible Amount.\n            if (rSupply < _rTotal.div(_tTotal)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:1043:20: Warning: Indivisible Amount.\n            return rSupply.div(tSupply)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:810:20: Warning: Indivisible Amount.\n            return rAmount.div(currentRate)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:885:17: Warning: Indivisible Amount.\n                swapTokensForEth(contractTokenBalance)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:911:13: Warning: Indivisible Amount.\n            _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:914:13: Warning: Indivisible Amount.\n            uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:889:21: Warning: Indivisible Amount.\n                    sendETHToTeam(address(this).balance)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:924:41: Warning: Indivisible Amount.\n            _teamWalletAddress.transfer(amount.div(2)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:925:46: Warning: Indivisible Amount.\n            _marketingWalletAddress.transfer(amount.div(2)",
+    "ex_95_samples/9e86f530866bf7b3e8b23e613495c696f713c3c9_PapaFloki.sol:925:13: Warning: Indivisible Amount.\n            _marketingWalletAddress.transfer(amount.div(2))"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 28,
+ "pub_fun_count": 39
+}

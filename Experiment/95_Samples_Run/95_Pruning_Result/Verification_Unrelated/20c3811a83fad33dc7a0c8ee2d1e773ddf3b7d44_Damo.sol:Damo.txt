@@ -1,0 +1,24 @@
+```json
+{
+  "correct": [
+    "name",
+    "nameAddress",
+    "airFropTracker_",
+    "airDropTracker_",
+    "registrationFee_",
+    "GetCurRoundInfo",
+    "isValidName",
+    "getNameFee",
+    "Activate",
+    "setAdmin",
+    "decimal",
+    "getRoundInfo",
+    "airFropPot_",
+    "symbol",
+    "getAdminInfo",
+    "CheckActivate",
+    "getPlayerInfoByAddress"
+  ],
+  "wrong": []
+}
+```

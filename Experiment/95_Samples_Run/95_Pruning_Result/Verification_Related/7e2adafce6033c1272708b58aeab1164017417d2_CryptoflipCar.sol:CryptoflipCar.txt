@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["purchaseAdv", "purchaseWhaleCard", "purchaseCard"],
+  "wrong": ["pauseGame", "playGame"]
+}
+```

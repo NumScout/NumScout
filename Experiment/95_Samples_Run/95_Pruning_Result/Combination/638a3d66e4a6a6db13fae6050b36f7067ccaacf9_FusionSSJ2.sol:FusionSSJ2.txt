@@ -1,0 +1,1 @@
+{"related": ["transfer", "transferFrom", "manualsend", "manualswap"], "unrelated": ["allowance", "approve", "balanceOf", "decimals", "delBot", "name", "openTrading", "owner", "renounceOwnership", "setBots", "setCooldownEnabled", "symbol", "totalSupply"]}

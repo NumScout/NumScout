@@ -1,0 +1,3 @@
+```json
+{"correct": ["approve", "balanceOf", "explicitOwnershipOf", "explicitOwnershipsOf", "getApproved", "guaranteedLegendaryPerAddy", "isApprovedForAll", "maxGuaranteedLegendaries", "maxMintAddress", "maxSupply", "mintClaimed", "name", "owner", "ownerOf", "paused", "supportsInterface", "symbol", "tokenURI", "tokensOfOwner", "tokensOfOwnerIn", "totalSupply", "transferOwnership", "uriPrefix", "uriSuffix"], "wrong": ["cost", "safeTransferFrom", "safeTransferFrom", "setApprovalForAll", "setCost", "setPaused", "setPriceGuaranteedLegendary", "setUriPrefix", "setUriSuffix", "setmaxMintAddress"]}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["airdrop", "mint", "safeTransferFrom", "setLowerMaxSupply", "transferFrom", "withdraw", "withdrawTokens"],
+  "unrelated": ["MAX_MINTS_PER_TX", "NUM_FREE_MINTS", "PUBLIC_SALE_PRICE", "approve", "balanceOf", "getApproved", "getBaseURI", "isApprovedForAll", "isPublicSaleActive", "maxSupply", "name", "nextOwnerToExplicitlySet", "owner", "ownerOf", "renounceOwnership", "royaltyInfo", "setApprovalForAll", "setBaseURI", "setIsOpenSeaProxyActive", "setIsPublicSaleActive", "setNumFreeMints", "supportsInterface", "symbol", "tokenByIndex", "tokenOfOwnerByIndex", "tokenURI", "totalSupply", "transferOwnership"]
+}
+```

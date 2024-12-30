@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["claim", "purchase", "withdraw", "purchaseFor", "callback", "purchases", "migration"],
+  "unrelated": ["packSize", "setOwner", "creationBlock", "unpause", "recommit", "paused", "perClaim", "claimMultiple", "canClaim", "pause", "packsPerClaim", "owner", "setPacksPerClaim", "packs", "isPriorPack", "getPurchaseCount", "getCardDetails", "setCanClaim", "basePrice", "predictPacks", "setPackLimit", "calculatePrice", "packLimit", "vault"]
+}
+```

@@ -1,0 +1,15 @@
+```json
+{
+    "correct": [
+        "buy",
+        "payCharity",
+        "reinvest",
+        "exit",
+        "withdraw",
+        "sell",
+        "transfer",
+        "transferAndCall"
+    ],
+    "wrong": []
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["withdrawn", "admins", "setAdmin", "feeAccount", "changeFeeAccount", "acceptOwnership", "owner", "newOwner", "transferOwnership", "orderFills", "balanceOf"],
+  "wrong": ["tokens", "traded"]
+}
+```

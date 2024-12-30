@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["publicMint", "Death", "withdraw"],
+  "wrong": ["transferFrom", "safeTransferFrom", "safeTransferFrom"]
+}
+```

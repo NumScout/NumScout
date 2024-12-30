@@ -1,0 +1,6 @@
+```json
+{
+  "correct": [ "_name", "_symbol", "allowance", "balanceOf", "decimals", "delBot", "name", "owner", "renounceOwnership", "setCooldownEnabled", "setMaxTxPercent", "symbol", "totalSupply" ],
+  "wrong": [ "openTrading", "setBots" ]
+}
+```

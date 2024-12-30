@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["claim", "claimFor", "claimMany", "claimManyFor", "ownerWithdraw", "safeTransferFrom", "safeTransferFrom", "transferFrom"],
+  "unrelated": ["allClaimeds", "allInfoFor", "approve", "balanceOf", "baseTokenURI", "compositeHash", "contractURI", "getApproved", "getClaimed", "getName", "getOwnerRibbitsTable", "getRibbit", "getRibbits", "getRibbitsTable", "isApprovedForAll", "name", "owner", "ownerOf", "rename", "setApprovalForAll", "setMetadata", "setOwner", "supportsInterface", "symbol", "tokenByIndex", "tokenOfOwnerByIndex", "tokenURI", "totalSupply"]
+}
+```

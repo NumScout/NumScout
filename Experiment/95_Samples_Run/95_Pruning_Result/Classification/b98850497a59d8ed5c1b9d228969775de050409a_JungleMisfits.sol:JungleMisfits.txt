@@ -1,0 +1,3 @@
+```json
+{"related":["Airdrop","Reserve","mint","setCost","withdraw"],"unrelated":["NFTPerPublicAddress","approve","balanceOf","cost","getApproved","hiddenURL","isApprovedForAll","maxFreeMintAmountPerWallet","maxMintAmountPerTx","maxSupply","name","owner","ownerOf","paused","renounceOwnership","reveal","safeTransferFrom","safeTransferFrom","setApprovalForAll","setFreeMaxLimitPerAddress","setHiddenUri","setMaxMintAmountPerTx","setMaxSupply","setPaused","setRevealed","setUriPrefix","supportsInterface","symbol","tokenURI","totalSupply","transferFrom","transferOwnership"]}
+```

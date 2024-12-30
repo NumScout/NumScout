@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["burn", "mint", "getEther", "withdrawEther", "getToken"],
+  "unrelated": ["approve", "balanceOf", "buyLimit", "contractURI", "devMint", "exists", "explicitOwnershipOf", "explicitOwnershipsOf", "getApproved", "getOwnershipData", "getPrice", "isApprovedForAll", "maxSupply", "name", "numberBurned", "numberFreeMinted", "numberMinted", "owner", "ownerOf", "price", "renounceOwnership", "reserved", "safeTransferFrom", "safeTransferFrom", "setApprovalForAll", "setBaseURI", "setContractUri", "supportsInterface", "symbol", "tokenURI", "tokensOfOwner", "tokensOfOwnerIn", "totalBurned", "totalMinted", "totalSupply", "transferFrom", "transferOwnership", "userCount"]
+}
+```

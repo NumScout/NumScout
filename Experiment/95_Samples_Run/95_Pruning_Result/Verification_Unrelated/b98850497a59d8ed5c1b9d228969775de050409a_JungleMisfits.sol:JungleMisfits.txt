@@ -1,0 +1,40 @@
+```json
+{
+    "correct": [
+        "NFTPerPublicAddress",
+        "approve",
+        "balanceOf",
+        "cost",
+        "getApproved",
+        "hiddenURL",
+        "isApprovedForAll",
+        "maxFreeMintAmountPerWallet",
+        "maxMintAmountPerTx",
+        "maxSupply",
+        "name",
+        "owner",
+        "ownerOf",
+        "paused",
+        "renounceOwnership",
+        "reveal",
+        "setApprovalForAll",
+        "setFreeMaxLimitPerAddress",
+        "setHiddenUri",
+        "setMaxMintAmountPerTx",
+        "setMaxSupply",
+        "setPaused",
+        "setRevealed",
+        "setUriPrefix",
+        "supportsInterface",
+        "symbol",
+        "tokenURI",
+        "totalSupply",
+        "transferOwnership"
+    ],
+    "wrong": [
+        "safeTransferFrom",
+        "safeTransferFrom",
+        "transferFrom"
+    ]
+}
+```

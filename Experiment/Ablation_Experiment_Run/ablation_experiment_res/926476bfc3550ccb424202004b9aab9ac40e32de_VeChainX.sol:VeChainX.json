@@ -1,0 +1,37 @@
+{
+ "evm_code_coverage": "98.8",
+ "instructions": "3677",
+ "time": "236.94865083694458",
+ "analysis": {
+  "div_in_path": [
+   [
+    "ab_95_samples/926476bfc3550ccb424202004b9aab9ac40e32de_VeChainX.sol:179:9: Warning: Div In Path.\n        getTokens()",
+    "ab_95_samples/926476bfc3550ccb424202004b9aab9ac40e32de_VeChainX.sol:189:18: Warning: Div In Path.\n        tokens = tokensPerEth.mul(msg.value)",
+    "ab_95_samples/926476bfc3550ccb424202004b9aab9ac40e32de_VeChainX.sol:192:9: Warning: Div In Path.\n        if (tokens > 0) {\n        ^\nSpanning multiple lines."
+   ],
+   [
+    "ab_95_samples/926476bfc3550ccb424202004b9aab9ac40e32de_VeChainX.sol:189:18: Warning: Div In Path.\n        tokens = tokensPerEth.mul(msg.value)",
+    "ab_95_samples/926476bfc3550ccb424202004b9aab9ac40e32de_VeChainX.sol:192:9: Warning: Div In Path.\n        if (tokens > 0) {\n        ^\nSpanning multiple lines."
+   ]
+  ],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 12,
+ "pub_fun_count": 23
+}

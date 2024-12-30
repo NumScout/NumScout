@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["withdraw", "withdrawAll", "buy"],
+  "wrong": []
+}
+```

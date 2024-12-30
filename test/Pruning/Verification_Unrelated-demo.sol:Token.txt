@@ -1,0 +1,1 @@
+{"correct": ["allowance", "approve", "balanceOf", "decimals", "decreaseAllowance", "increaseAllowance", "name", "symbol", "totalSupply"], "wrong": []}

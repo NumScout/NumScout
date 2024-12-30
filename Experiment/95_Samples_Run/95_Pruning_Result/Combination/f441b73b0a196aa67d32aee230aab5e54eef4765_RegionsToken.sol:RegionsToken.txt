@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["payout", "purchase", "transferFrom", "transfer"],
+  "unrelated": ["approve", "createPromoRegion", "createContractRegion", "takeOwnership", "promoCreatedCount", "name", "ceoAddress", "implementsERC721", "totalSupply", "setCEO", "setCOO", "regionIndexToOwner", "getRegion", "ownerOf", "balanceOf", "tokensOfOwner", "symbol", "regionIndexToApproved", "NAME", "cooAddress", "priceOf", "SYMBOL"]
+}
+```

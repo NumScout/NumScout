@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["approve", "transferFrom", "withdraw", "burn", "transfer", "getTokens", "withdrawForeignTokens"],
+  "wrong": []
+}
+```

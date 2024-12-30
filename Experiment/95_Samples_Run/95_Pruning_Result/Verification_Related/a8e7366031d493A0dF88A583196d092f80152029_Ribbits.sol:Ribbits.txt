@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["claim", "claimFor", "claimMany", "claimManyFor", "ownerWithdraw", "safeTransferFrom", "safeTransferFrom", "transferFrom"],
+  "wrong": ["approve", "rename", "setApprovalForAll"]
+}
+```

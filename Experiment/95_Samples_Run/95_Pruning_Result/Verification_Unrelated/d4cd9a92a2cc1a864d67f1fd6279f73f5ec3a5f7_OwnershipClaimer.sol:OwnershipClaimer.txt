@@ -1,0 +1,3 @@
+```json
+{"correct": ["__callback", "manager", "fromVersion", "apiUrl", "owner", "getOraclizeFee", "managerAddress", "setManager", "calcQueryCost"], "wrong": ["renounceOwnership", "transferOwnership"]}
+```

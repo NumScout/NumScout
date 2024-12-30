@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["initialized", "isActive", "initialTokens", "tokensAvailable", "RATE", "goalReached", "initialize", "owner", "START", "DAYS", "raisedAmount", "CAP"],
+  "wrong": ["transferOwnership"]
+}
+```

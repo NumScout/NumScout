@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["transfer", "transferFrom", "deliver", "addLiquidity"],
+  "wrong": ["addBypassMaxTx", "removeBypassMaxTx", "setMaxTxBasisPoint", "transferOwnership", "excludeFromFee", "includeInFee", "setTaxFeeBasisPoint", "setLiquidityFeeBasisPoint"]
+}
+```

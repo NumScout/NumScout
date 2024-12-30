@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["withdraw", "reLoadXaddr", "buyXname", "buyXaddr", "reLoadXname", "buyXid", "reLoadXid"],
+  "wrong": []
+}
+```

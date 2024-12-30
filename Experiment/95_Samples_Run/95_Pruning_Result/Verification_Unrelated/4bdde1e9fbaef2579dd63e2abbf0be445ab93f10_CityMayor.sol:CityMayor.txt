@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["name", "countries", "totalSupply", "decimals", "monuments", "BUY_CITY_FEE", "UNITED_NATIONS_FUND", "ECONOMY_BOOST_TRADE", "cities", "unitedNations", "balanceOf", "MONUMENT_UN_FEE", "symbol", "adminAddCity", "MAX_CITIES", "ECONOMY_BOOST", "cancelOfferForCity", "adminAddMonument", "totalOffer", "MONUMENT_CITY_FEE", "allowance", "adminAddCountry", "adminEditCity"],
+  "wrong": ["offers"]
+}
+```

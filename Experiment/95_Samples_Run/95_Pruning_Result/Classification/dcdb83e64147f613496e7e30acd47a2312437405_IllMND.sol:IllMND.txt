@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["Ownermint", "mint", "withdraw"],
+  "unrelated": ["approve", "balanceOf", "cost", "explicitOwnershipOf", "explicitOwnershipsOf", "getApproved", "guaranteedLegendaryPerAddy", "isApprovedForAll", "maxGuaranteedLegendaries", "maxMintAddress", "maxSupply", "mintClaimed", "name", "owner", "ownerOf", "paused", "priceGuaranteedLegendary", "renounceOwnership", "safeTransferFrom", "safeTransferFrom", "setApprovalForAll", "setCost", "setPaused", "setPriceGuaranteedLegendary", "setUriPrefix", "setUriSuffix", "setmaxMintAddress", "supportsInterface", "symbol", "tokenURI", "tokensOfOwner", "tokensOfOwnerIn", "totalSupply", "transferFrom", "transferOwnership", "uriPrefix", "uriSuffix"]
+}
+```

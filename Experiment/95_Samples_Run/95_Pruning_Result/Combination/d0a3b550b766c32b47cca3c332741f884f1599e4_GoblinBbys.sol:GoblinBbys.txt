@@ -1,0 +1,3 @@
+```json
+{"related": ["mint", "mintOwner", "safeTransferFrom", "safeTransferFrom", "transferFrom", "withdraw", "PRICE"], "unrelated": ["approve", "setApprovalForAll", "FREE_MINT_IS_ALLOWED_UNTIL", "FREE_MINT_LIMIT_PER_WALLET", "IS_SALE_ACTIVE", "MAX_MINT_AMOUNT_PER_TX", "MAX_SUPPLY", "METADATA_FROZEN", "balanceOf", "getApproved", "isApprovedForAll", "name", "owner", "ownerOf", "renounceOwnership", "supportsInterface", "symbol", "tokenURI", "totalSupply", "transferOwnership", "freezeMetadata", "lowerMaxSupply", "setBaseURI", "setFreeMintAllowance", "setFreeMintAllowedUntil", "setMaxMintPerTx", "setSaleActive", "setPrice"]}
+```

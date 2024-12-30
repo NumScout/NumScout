@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["mintHippos", "reserveHippos", "withdraw"],
+  "wrong": ["transferFrom", "safeTransferFrom"]
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["deliver", "manualSwap", "manualSend", "recoverTokens", "transfer", "transferFrom"],
+  "wrong": ["_setNumTokensSellToAddToLiquidity", "_setTaxFee", "_setLiquidityFee", "_setMarketingFee"]
+}
+```

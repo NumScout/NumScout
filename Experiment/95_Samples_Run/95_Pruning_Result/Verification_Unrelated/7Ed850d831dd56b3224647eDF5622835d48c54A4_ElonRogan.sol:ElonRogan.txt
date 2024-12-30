@@ -1,0 +1,6 @@
+```json
+{
+    "correct": ["LPWallet", "_LPFee", "_feeDecimal", "_marketingFee", "_taxFee", "_teamFee", "allowance", "approve", "balanceOf", "blacklist", "decimals", "decreaseAllowance", "excludeAccount", "increaseAllowance", "isExcluded", "isFeeActive", "isMaxTxExempt", "isTaxless", "launch", "launchedAt", "launchedAtTimestamp", "marketingWallet", "maxTxAmount", "maxWalletAmount", "minTokensBeforeSwap", "multiBlacklist", "name", "owner", "pair", "reflectionFromToken", "renounceOwnership", "router", "setBlacklist", "setFeeActive", "setLPFee", "setLPWallet", "setMarketingFee", "setMarketingWallet", "setMaxTxAmount", "setMaxTxExempt", "setMaxWalletAmount", "setMinTokensBeforeSwap", "setPairAndRouter", "setSwapEnabled", "setTaxFee", "setTaxless", "setTeamFee", "setTeamWallet", "swapEnabled", "symbol", "teamWallet", "tokenFromReflection"],
+    "wrong": ["totalSupply", "transferOwnership"]
+}
+```

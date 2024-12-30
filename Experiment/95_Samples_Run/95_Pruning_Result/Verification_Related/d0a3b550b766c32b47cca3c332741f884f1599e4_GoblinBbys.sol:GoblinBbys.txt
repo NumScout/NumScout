@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["mint", "mintOwner", "safeTransferFrom", "safeTransferFrom", "transferFrom", "withdraw"],
+  "wrong": ["approve", "setApprovalForAll"]
+}
+```

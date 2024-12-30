@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["buyXid", "buyXaddr", "buyXname", "reLoadXid", "reLoadXaddr", "reLoadXname", "withdraw", "registerNameXaddr", "registerNameXID", "registerNameXname", "potSwap"],
+  "unrelated": ["getBuyPrice", "name", "activate", "pIDxAddr_", "airDropTracker_", "round_", "plyrNames_", "fees_", "pIDxName_", "receivePlayerInfo", "rndTmEth_", "rID_", "getPlayerVaults", "getCurrentRoundInfo", "receivePlayerNameList", "symbol", "buyXaddr", "plyrRnds_", "potSplit_", "getTimeLeft", "calcKeysReceived", "iWantXKeys", "activated_", "airDropPot_", "plyr_", "getPlayerInfoByAddress"]
+}
+```

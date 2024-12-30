@@ -1,0 +1,62 @@
+{
+ "evm_code_coverage": "41.7",
+ "instructions": "8141",
+ "time": "1261.75461435318",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:421:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:423:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3).div(5)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:9: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3).div(5))"
+   ],
+   [
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:421:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:423:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3).div(5)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:407:38: Warning: Indivisible Amount.\n        _developmentAddress.transfer(amount.mul(2)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:407:38: Warning: Indivisible Amount.\n        _developmentAddress.transfer(amount.mul(2).div(5)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:407:9: Warning: Indivisible Amount.\n        _developmentAddress.transfer(amount.mul(2).div(5))"
+   ],
+   [
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:421:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:421:56: Warning: Indivisible Amount.\n        require(_msgSender() == _developmentAddress || _msgSender()",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:423:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3).div(5)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:9: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3).div(5))"
+   ],
+   [
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:421:17: Warning: Indivisible Amount.\n        require(_msgSender()",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:421:56: Warning: Indivisible Amount.\n        require(_msgSender() == _developmentAddress || _msgSender()",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:423:9: Warning: Indivisible Amount.\n        sendETHToFee(contractETHBalance)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:406:36: Warning: Indivisible Amount.\n        _marketingAddress.transfer(amount.mul(3).div(5)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:407:38: Warning: Indivisible Amount.\n        _developmentAddress.transfer(amount.mul(2)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:407:38: Warning: Indivisible Amount.\n        _developmentAddress.transfer(amount.mul(2).div(5)",
+    "ex_95_samples/63278489e04Cd2224DAa4e425E57282135db7Af3_Konnichiwa.sol:407:9: Warning: Indivisible Amount.\n        _developmentAddress.transfer(amount.mul(2).div(5))"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 33,
+ "pub_fun_count": 31
+}

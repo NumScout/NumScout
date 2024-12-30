@@ -1,0 +1,13 @@
+```json
+{
+  "correct": [
+    "transfer",
+    "transferFrom",
+    "increaseAllowance",
+    "decreaseAllowance",
+    "manualSend",
+    "manualSwap"
+  ],
+  "wrong": []
+}
+```

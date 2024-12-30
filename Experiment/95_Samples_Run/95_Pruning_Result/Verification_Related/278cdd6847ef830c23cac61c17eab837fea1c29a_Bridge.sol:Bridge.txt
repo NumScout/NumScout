@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["adminWithdraw", "deposit", "executeProposal", "transferFunds"],
+  "wrong": []
+}
+```

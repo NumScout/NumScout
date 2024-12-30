@@ -1,0 +1,6 @@
+```json
+{
+    "related": ["deliver", "manualSwap", "manualSend", "recoverTokens", "transfer", "transferFrom"],
+    "unrelated": ["_getETHBalance", "_setLiquidityFee", "_setMarketingFee", "_setNumTokensSellToAddToLiquidity", "_setTaxFee", "addBotToBlackList", "allowance", "approve", "balanceOf", "decimals", "decreaseAllowance", "excludeFromReward", "includeInReward", "increaseAllowance", "isExcludedFromFee", "isExcludedFromReward", "removeBotFromBlackList", "renounceOwnership", "setExcludeFromFee", "setMaxTxPercent", "setSwapAndLiquifyEnabled", "swapAndLiquifyEnabled", "symbol", "tokenFromReflection", "totalFees", "totalSupply", "transferOwnership", "uniswapV2Pair", "uniswapV2Router"]
+}
+```

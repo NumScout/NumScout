@@ -1,0 +1,6 @@
+```json
+{
+    "correct": ["approve", "balanceOf", "cost", "explicitOwnershipOf", "explicitOwnershipsOf", "freeMinted", "getApproved", "isApprovedForAll", "maxPerAddress", "maxPerTX", "maxSupply", "name", "numberMinted", "owner", "ownerOf", "paused", "renounceOwnership", "setPaused", "setUriPrefix", "setUriSuffix", "setmaxPerTX", "supportsInterface", "symbol", "tokenURI", "tokensOfOwner", "tokensOfOwnerIn", "totalSupply", "transferOwnership", "uriPrefix", "uriSuffix"],
+    "wrong": ["setApprovalForAll"]
+}
+```

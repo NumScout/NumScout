@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["setOwner", "signer", "maxNumber", "getPlayerAddr", "minNumber", "pID", "setMinBet", "owner", "minBet", "maxProfit", "createInviteID", "getPlayerId", "bets", "ownerkill", "pendingWithdrawalsBalance", "setSecretSigner", "maxPendingPayouts", "setMaxProfit", "clearStorage"],
+  "wrong": []
+}
+```

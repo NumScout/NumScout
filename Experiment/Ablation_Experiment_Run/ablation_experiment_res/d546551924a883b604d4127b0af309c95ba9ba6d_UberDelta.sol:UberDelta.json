@@ -1,0 +1,36 @@
+{
+ "evm_code_coverage": "40.7",
+ "instructions": "20809",
+ "time": "1801.008245229721",
+ "analysis": {
+  "div_in_path": [
+   [
+    "ab_95_samples/d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol:827:20: Warning: Div In Path.\n    bytes32 hash = getHash(_addressData, _numberData)",
+    "ab_95_samples/d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol:829:19: Warning: Div In Path.\n    tradeAmount = safeSub(_numberData[0], orderFills[hash])",
+    "ab_95_samples/d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol:834:9: Warning: Div In Path.\n        safeMul(balances[_addressData[1]][_addressData[2]], _numberData[0])",
+    "ab_95_samples/d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol:833:21: Warning: Div In Path.\n      tradeAmount > safeDiv(\n      ^\nSpanning multiple lines.",
+    "ab_95_samples/d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol:890:24: Warning: Div In Path.\n    uint256 feeValue = safeMul(_amount, feeByClass[userClass[msg.sender]])",
+    "ab_95_samples/d546551924a883b604d4127b0af309c95ba9ba6d_UberDelta.sol:893:5: Warning: Div In Path.\n    if ( (_amount + feeValue) > balances[_addressData[0]][msg.sender])  { \n    ^\nSpanning multiple lines."
+   ]
+  ],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 4,
+ "storage_var_count": 20,
+ "pub_fun_count": 70
+}

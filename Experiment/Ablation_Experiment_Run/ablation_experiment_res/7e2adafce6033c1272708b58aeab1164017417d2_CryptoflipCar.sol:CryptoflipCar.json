@@ -1,0 +1,103 @@
+{
+ "evm_code_coverage": "83.3",
+ "instructions": "9175",
+ "time": "1654.3260879516602",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:162:3: Warning: Operator Order Issue.\n  foundTeamAddress.transfer(commission5percent)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:149:40: Warning: Operator Order Issue.\n      totalpercent = 150 + 5 + 2 + 2 + mul(ownercount, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:162:3: Warning: Operator Order Issue.\n  foundTeamAddress.transfer(commission5percent)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:149:40: Warning: Operator Order Issue.\n      totalpercent = 150 + 5 + 2 + 2 + mul(ownercount, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:180:5: Warning: Operator Order Issue.\n    companies[companyId].ownerAddress.transfer(commission2percent)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:149:40: Warning: Operator Order Issue.\n      totalpercent = 150 + 5 + 2 + 2 + mul(ownercount, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:185:5: Warning: Operator Order Issue.\n    makes[makeId].ownerAddress.transfer(commission2percent)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:149:40: Warning: Operator Order Issue.\n      totalpercent = 150 + 5 + 2 + 2 + mul(ownercount, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:197:5: Warning: Operator Order Issue.\n    cars[_cardId].ownerAddresses[len-1].transfer(commissionOwner)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:149:40: Warning: Operator Order Issue.\n      totalpercent = 150 + 5 + 2 + 2 + mul(ownercount, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:191:17: Warning: Operator Order Issue.\n                cars[_cardId].ownerAddresses[i].transfer(commission2percent)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:173:5: Warning: Operator Order Issue.\n    companies[companyId].ownerAddress.transfer(commission2percent)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:175:5: Warning: Operator Order Issue.\n    makes[_cardId].ownerAddress.transfer(commissionOwner)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:36: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:153:32: Warning: Operator Order Issue.\n  uint256 commission1percent = div(mul(msg.value, 1) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:161:32: Warning: Operator Order Issue.\n  uint256 commission5percent = mul(commission1percent, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:165:32: Warning: Operator Order Issue.\n  uint256 commission2percent = mul(commission1percent, 2)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:168:5: Warning: Operator Order Issue.\n    companies[_cardId].ownerAddress.transfer(commissionOwner)"
+   ]
+  ],
+  "indivisible_amount": [],
+  "precision_loss_trend": [
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:107:3: Warning: Precision Loss Trend.\n  advs[_advId].ownerAddress.transfer(commissionOwner)"
+   ],
+   [
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:119:38: Warning: Precision Loss Trend.\n    uint256 commission5percent = div(mul(msg.value, 5)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:119:34: Warning: Precision Loss Trend.\n    uint256 commission5percent = div(mul(msg.value, 5) , totalpercent)",
+    "ab_95_samples/7e2adafce6033c1272708b58aeab1164017417d2_CryptoflipCar.sol:122:5: Warning: Precision Loss Trend.\n    whalecard.ownerAddress.transfer(commissionOwner)"
+   ]
+  ],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": true,
+  "indivisible_amount": false,
+  "precision_loss_trend": true,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 1,
+ "storage_var_count": 12,
+ "pub_fun_count": 24
+}

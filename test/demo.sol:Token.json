@@ -1,0 +1,59 @@
+{
+ "evm_code_coverage": "65.1",
+ "instructions": "3242",
+ "time": "1340.1526792049408",
+ "analysis": {
+  "div_in_path": [
+   [
+    "test/demo.sol:28:9: Warning: Div In Path.\n        if(_gate / 10000 > 3) {\n        ^\nSpanning multiple lines."
+   ]
+  ],
+  "operator_order_issue": [
+   [
+    "test/demo.sol:31:9: Warning: Operator Order Issue.\n        transferFrom(address(this), msg.sender, token_amount)"
+   ]
+  ],
+  "indivisible_amount": [
+   [
+    "test/demo.sol:46:9: Warning: Indivisible Amount.\n        dev1.transfer(bal / 2)"
+   ],
+   [
+    "test/demo.sol:47:9: Warning: Indivisible Amount.\n        dev2.transfer(bal / 2)"
+   ],
+   [
+    "test/demo.sol:35:9: Warning: Indivisible Amount.\n        transfer(address(this), _amount)",
+    "test/demo.sol:37:9: Warning: Indivisible Amount.\n        payable(msg.sender).transfer(eth_amount)"
+   ]
+  ],
+  "precision_loss_trend": [
+   [
+    "test/demo.sol:35:9: Warning: Precision Loss Trend.\n        transfer(address(this), _amount)",
+    "test/demo.sol:37:9: Warning: Precision Loss Trend.\n        payable(msg.sender).transfer(eth_amount)"
+   ]
+  ],
+  "exchange_problem": [
+   [
+    "test/demo.sol:31:9: Warning: Exchange Problem.\n        transferFrom(address(this), msg.sender, token_amount)"
+   ]
+  ],
+  "exchange_rounding": [
+   [
+    "test/demo.sol:31:9: Warning: Exchange Rounding.\n        transferFrom(address(this), msg.sender, token_amount)"
+   ]
+  ],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": true,
+  "indivisible_amount": true,
+  "precision_loss_trend": true,
+  "exchange_problem": true,
+  "exchange_rounding": true,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 10,
+ "pub_fun_count": 15
+}

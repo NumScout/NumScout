@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["_WithdrawSnipersTokens", "_process_airdrop", "approve", "decreaseAllowance", "increaseAllowance", "transfer", "transferFrom", "withdrawStuckERC", "withdrawStuckETH", "forceSwapBack"],
+  "wrong": ["EnableTrading"]
+}
+```

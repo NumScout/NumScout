@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["adminWithdraw", "depositToken", "deposit", "trade", "tokens", "traded"],
+  "unrelated": ["cancelOrder", "withdrawn", "admins", "setAdmin", "feeAccount", "changeFeeAccount", "acceptOwnership", "owner", "newOwner", "transferOwnership", "orderFills", "balanceOf"]
+}
+```

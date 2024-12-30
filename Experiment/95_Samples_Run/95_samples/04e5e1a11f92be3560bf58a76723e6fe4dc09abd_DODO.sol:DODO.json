@@ -1,0 +1,34 @@
+{
+ "evm_code_coverage": "19.6",
+ "instructions": "12035",
+ "time": "1800.0331811904907",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/04e5e1a11f92be3560bf58a76723e6fe4dc09abd_DODO.sol:424:27: Warning: Indivisible Amount.\n        require(_owner == _msgSender()",
+    "ex_95_samples/04e5e1a11f92be3560bf58a76723e6fe4dc09abd_DODO.sol:1054:44: Warning: Indivisible Amount.\n        payable(_marketingWallet).transfer(amountBNB.mul(amountPercentage)",
+    "ex_95_samples/04e5e1a11f92be3560bf58a76723e6fe4dc09abd_DODO.sol:1054:44: Warning: Indivisible Amount.\n        payable(_marketingWallet).transfer(amountBNB.mul(amountPercentage).div(100)",
+    "ex_95_samples/04e5e1a11f92be3560bf58a76723e6fe4dc09abd_DODO.sol:1054:9: Warning: Indivisible Amount.\n        payable(_marketingWallet).transfer(amountBNB.mul(amountPercentage).div(100))"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 4,
+ "storage_var_count": 46,
+ "pub_fun_count": 45
+}

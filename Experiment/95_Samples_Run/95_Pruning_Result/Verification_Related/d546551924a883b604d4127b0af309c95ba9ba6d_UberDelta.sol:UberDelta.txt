@@ -1,0 +1,19 @@
+```json
+{
+  "correct": [
+    "depositTokenToUser",
+    "remoteWithdraw",
+    "withdraw",
+    "depositToken",
+    "internalTransfer",
+    "trade",
+    "withdrawToken",
+    "depositToUser",
+    "tokenFallback",
+    "sweepTokenAmount",
+    "deposit",
+    "upgrade"
+  ],
+  "wrong": []
+}
+```

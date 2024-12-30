@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["depositTokenToUser", "remoteWithdraw", "withdraw", "depositToken", "internalTransfer", "trade", "withdrawToken", "depositToUser", "tokenFallback", "sweepTokenAmount", "deposit", "upgrade"],
+  "unrelated": ["validateTrade", "newExchange", "getUserFee", "changeUserClass", "getOptionAddress", "userClass", "availableVolume", "changeClassFee", "testCanTrade", "testRemoteWithdraw", "contractLocked", "isOptionPairRegistered", "manager", "canDeposit", "EOSRegistration", "feeByClass", "updateComplianceAddress", "changeNewExchange", "canTrade", "feeAccount", "exercisedOptions", "changeFeeAccount", "optionsRegistryAddress", "optionExcerciseUnwind", "order", "testIsOptionPairRegistered", "lockContract", "testValidateTrade", "owner", "newManager", "globalBalance", "orders", "getOptionPair", "tokenRestriction", "updateOptionsRegistryAddress", "isHelper", "balances", "collapseOptionPair", "amountFilled", "expireOption", "testTrade", "newOwner", "confirmOwnership", "changeHelper", "restrictedTokens", "cancelRemoteWithdraw", "registerOptionPair", "testCanDeposit", "createOptionPair", "transferOwnership", "getHash", "cancelOrder", "orderFills", "balanceOf", "changeSweepAccount", "complianceAddress", "excerciseOption"]
+}
+```

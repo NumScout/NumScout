@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["freeClaim", "publicMint", "reserveMint", "withdraw"],
+  "wrong": ["approve", "safeTransferFrom", "setApprovalForAll", "transferFrom"]
+}
+```

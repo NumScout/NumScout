@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["CommunityWithDraw", "WithDraw", "BuyTicket", "BuyTicketUseVault", "iWantXKeys", "withdrawEarnings", "updateGenVault"],
+  "unrelated": ["name", "registerName", "nameAddress", "airFropTracker_", "airDropTracker_", "registrationFee_", "GetCurRoundInfo", "isValidName", "calcUnMaskedEarnings", "getNameFee", "Activate", "setAdmin", "decimal", "getRoundInfo", "airFropPot_", "symbol", "getAdminInfo", "CheckActivate", "getPlayerInfoByAddress"]
+}
+```

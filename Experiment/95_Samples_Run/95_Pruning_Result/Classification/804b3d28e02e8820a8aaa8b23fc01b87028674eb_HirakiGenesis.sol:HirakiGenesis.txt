@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["mint", "treasuryMint", "withdraw", "whitelistMint"],
+  "unrelated": ["MAX_FREE_PER_WALLET", "MAX_MINTS_PER_TX", "NUM_FREE_MINTS", "PUBLIC_SALE_PRICE", "approve", "balanceOf", "baseTokenURI", "freeNFTAlreadyMinted", "getApproved", "hiddenMetadataUri", "isApprovedForAll", "isPublicSaleActive", "maxSupply", "merkleRoot", "name", "owner", "ownerOf", "renounceOwnership", "safeTransferFrom", "safeTransferFrom", "setApprovalForAll", "setBaseURI", "setFreeLimitPerWallet", "setHiddenMetadataUri", "setIsPublicSaleActive", "setMaxLimitPerTransaction", "setMaxSupply", "setNumFreeMints", "setSalePrice", "setwhitelistMintEnabled", "supportsInterface", "symbol", "tokenURI", "totalSupply", "transferFrom", "transferOwnership", "whitelistClaimed", "whitelistMintEnabled"]
+}
+```

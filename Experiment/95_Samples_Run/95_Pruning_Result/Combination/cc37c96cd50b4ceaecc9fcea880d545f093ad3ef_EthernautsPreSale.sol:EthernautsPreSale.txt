@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["approve", "transfer", "transferFrom", "withdrawBalances", "bid"],
+  "unrelated": ["supportsInterface", "name", "ceoAddress", "implementsERC721", "getBalance", "totalSupply", "ctoAddress", "bonus", "setCEO", "setCOO", "ATTR_GOLDENGOOSE", "getTokensPerWave", "setTokensWave", "unpause", "setEthernautsStorageContract", "ethernautsStorage", "paused", "ATTR_SEEDED", "ownerOf", "getBonuses", "newContractAddress", "createNewAsset", "ATTR_TRADABLE", "balanceOf", "setNewAddress", "STATS_SIZE", "ATTR_LEASABLE", "setOracle", "pause", "ATTR_PRODUCIBLE", "setBonus", "ATTR_CONSUMABLE", "countdowns", "symbol", "setTokensByWaveIndex", "oracleAddress", "SHIP_SLOTS", "cooAddress", "setCountdown", "waveToTokens", "ATTR_PERMANENT", "isExploring", "tokenToBuyer", "ATTR_EXPLORABLE", "tokenToLastPrice", "getCountdowns", "setCTO", "takeOwnership"]
+}
+```

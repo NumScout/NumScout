@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["mint", "withdraw"],
+  "unrelated": ["FREE_MAX_SUPPLY", "MAX_PER_TX", "MAX_PER_TX_FREE", "MAX_SUPPLY", "approve", "balanceOf", "baseExtension", "baseURI", "configFREE_MAX_SUPPLY", "configMAX_SUPPLY", "configPrice", "contractURI", "getApproved", "isApprovedForAll", "name", "owner", "ownerOf", "pause", "paused", "price", "proxyRegistryAddress", "renounceOwnership", "setApprovalForAll", "setBaseURI", "setContractURI", "supportsInterface", "symbol", "tokenURI", "totalSupply", "transferOwnership"]
+}
+```

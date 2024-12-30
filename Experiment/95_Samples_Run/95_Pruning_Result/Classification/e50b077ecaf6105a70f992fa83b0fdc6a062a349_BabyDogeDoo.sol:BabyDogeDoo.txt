@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["approve", "transfer", "transferFrom", "manualsend", "manualswap"],
+  "unrelated": ["_name", "_symbol", "allowance", "balanceOf", "decimals", "delBot", "name", "openTrading", "owner", "renounceOwnership", "setBots", "setCooldownEnabled", "setMaxTxPercent", "symbol", "totalSupply"]
+}
+```

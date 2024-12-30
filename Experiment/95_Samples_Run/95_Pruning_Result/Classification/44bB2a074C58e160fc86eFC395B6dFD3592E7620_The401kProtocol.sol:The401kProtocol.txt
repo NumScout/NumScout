@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["transfer", "transferFrom", "withdrawAllToTreasury"],
+  "unrelated": ["DECIMALS", "MAX_UINT256", "RATE_DECIMALS", "RFVFundFee", "RFVFundReceiver", "_autoAddLiquidity", "_autoRebase", "_decimals", "_initRebaseStartTime", "_lastAddLiquidityTime", "_lastRebasedTime", "_name", "_symbol", "_totalSupply", "allowance", "approve", "autoLiquidityReceiver", "balanceOf", "blacklist", "checkFeeExempt", "decimals", "decreaseAllowance", "feeDenominator", "firePit", "firePitFee", "getCirculatingSupply", "getLiquidityBacking", "increaseAllowance", "isNotInSwap", "isOwner", "liquidityFee", "manualSync", "name", "owner", "pair", "pairAddress", "pairContract", "renounceOwnership", "router", "sellFee", "setAutoAddLiquidity", "setAutoRebase", "setBotBlacklist", "setFeeReceivers", "setLP", "setPairAddress", "setWhitelist", "swapEnabled", "symbol", "totalFee", "totalSupply", "transferOwnership", "treasuryFee", "treasuryReceiver"]
+}
+```

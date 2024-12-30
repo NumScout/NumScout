@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["payout", "purchase", "transferFrom", "transfer"],
+  "wrong": ["approve", "createPromoRegion", "createContractRegion", "takeOwnership"]
+}
+```

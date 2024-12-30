@@ -1,0 +1,63 @@
+{
+ "evm_code_coverage": "14.4",
+ "instructions": "9373",
+ "time": "1806.5495455265045",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:752:13: Warning: Indivisible Amount.\n            _transfer(sender, recipient, amount)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:860:26: Warning: Indivisible Amount.\n            if(sender != owner()",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:867:44: Warning: Indivisible Amount.\n            uint256 contractTokenBalance = balanceOf(address(this))",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:734:20: Warning: Indivisible Amount.\n            return tokenFromReflection(_rOwned[account])",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:801:36: Warning: Indivisible Amount.\n            uint256 currentRate =  _getRate()",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:1034:50: Warning: Indivisible Amount.\n            (uint256 rSupply, uint256 tSupply) = _getCurrentSupply()",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:1046:27: Warning: Indivisible Amount.\n            if (rSupply < _rTotal.div(_tTotal)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:1035:20: Warning: Indivisible Amount.\n            return rSupply.div(tSupply)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:802:20: Warning: Indivisible Amount.\n            return rAmount.div(currentRate)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:877:17: Warning: Indivisible Amount.\n                swapTokensForEth(contractTokenBalance)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:903:13: Warning: Indivisible Amount.\n            _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:906:13: Warning: Indivisible Amount.\n            uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:881:21: Warning: Indivisible Amount.\n                    sendETHToCharity(address(this).balance)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:916:44: Warning: Indivisible Amount.\n            _charityWalletAddress.transfer(amount.div(2)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:916:13: Warning: Indivisible Amount.\n            _charityWalletAddress.transfer(amount.div(2))"
+   ],
+   [
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:752:13: Warning: Indivisible Amount.\n            _transfer(sender, recipient, amount)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:860:26: Warning: Indivisible Amount.\n            if(sender != owner()",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:867:44: Warning: Indivisible Amount.\n            uint256 contractTokenBalance = balanceOf(address(this))",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:734:20: Warning: Indivisible Amount.\n            return tokenFromReflection(_rOwned[account])",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:801:36: Warning: Indivisible Amount.\n            uint256 currentRate =  _getRate()",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:1034:50: Warning: Indivisible Amount.\n            (uint256 rSupply, uint256 tSupply) = _getCurrentSupply()",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:1046:27: Warning: Indivisible Amount.\n            if (rSupply < _rTotal.div(_tTotal)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:1035:20: Warning: Indivisible Amount.\n            return rSupply.div(tSupply)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:802:20: Warning: Indivisible Amount.\n            return rAmount.div(currentRate)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:877:17: Warning: Indivisible Amount.\n                swapTokensForEth(contractTokenBalance)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:903:13: Warning: Indivisible Amount.\n            _approve(address(this), address(uniswapV2Router), tokenAmount)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:906:13: Warning: Indivisible Amount.\n            uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(\n            ^\nSpanning multiple lines.",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:881:21: Warning: Indivisible Amount.\n                    sendETHToCharity(address(this).balance)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:916:44: Warning: Indivisible Amount.\n            _charityWalletAddress.transfer(amount.div(2)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:917:46: Warning: Indivisible Amount.\n            _marketingWalletAddress.transfer(amount.div(2)",
+    "ex_95_samples/cfc49b91cc35f6ff7c209f7c070bf6e1b66fb151_DOODL.sol:917:13: Warning: Indivisible Amount.\n            _marketingWalletAddress.transfer(amount.div(2))"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 3,
+ "storage_var_count": 28,
+ "pub_fun_count": 38
+}

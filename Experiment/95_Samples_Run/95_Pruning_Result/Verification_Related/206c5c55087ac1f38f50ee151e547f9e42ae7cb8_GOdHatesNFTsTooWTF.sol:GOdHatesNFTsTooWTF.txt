@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["burn", "mint", "getEther", "withdrawEther", "getToken"],
+  "wrong": []
+}
+```

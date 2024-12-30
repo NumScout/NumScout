@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["name", "totalSupply", "decimals", "balanceOf", "symbol", "minContribution", "distributionFinished", "getTokenBalance", "tokensPerEth", "allowance", "totalDistributed", "transferOwnership"],
+  "wrong": []
+}
+```

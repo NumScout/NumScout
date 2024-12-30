@@ -1,0 +1,30 @@
+```json
+{
+    "correct": [
+        "owners", 
+        "revokeConfirmation", 
+        "isOwner", 
+        "confirmations", 
+        "calcMaxWithdraw", 
+        "getTransactionCount", 
+        "dailyLimit", 
+        "lastDay", 
+        "addOwner", 
+        "isConfirmed", 
+        "getConfirmationCount", 
+        "transactions", 
+        "getOwners", 
+        "getTransactionIds", 
+        "getConfirmations", 
+        "transactionCount", 
+        "changeRequirement", 
+        "MAX_OWNER_COUNT", 
+        "required", 
+        "replaceOwner", 
+        "spentToday"
+    ], 
+    "wrong": [
+        "removeOwner"
+    ]
+}
+```

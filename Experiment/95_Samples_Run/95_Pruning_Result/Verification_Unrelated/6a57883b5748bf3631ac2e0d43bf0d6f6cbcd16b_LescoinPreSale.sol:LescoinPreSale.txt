@@ -1,0 +1,3 @@
+```json
+{"correct": ["beneficiary", "ChangeEthPrice", "coldWallet", "tokenReward", "bonus", "amountRaised", "price", "ChangeBonus", "minSaleAmount", "ethPrice"], "wrong": []}
+```

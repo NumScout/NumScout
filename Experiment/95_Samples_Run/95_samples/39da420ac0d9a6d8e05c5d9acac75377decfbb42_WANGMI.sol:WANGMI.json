@@ -1,0 +1,71 @@
+{
+ "evm_code_coverage": "22.1",
+ "instructions": "8269",
+ "time": "1801.0680556297302",
+ "analysis": {
+  "div_in_path": [
+   [
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:970:17: Warning: Div In Path.\n        require(balanceOf(to)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:970:17: Warning: Div In Path.\n        require(balanceOf(to).add(amount)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1009:41: Warning: Div In Path.\n                uint256 sellTotalFees = sellLiquidityFee.add(sellTxFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1010:24: Warning: Div In Path.\n                fees = amount.mul(sellTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1010:24: Warning: Div In Path.\n                fees = amount.mul(sellTotalFees).div(100)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1011:61: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(sellLiquidityFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1011:61: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(sellLiquidityFee).div(sellTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1011:38: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(sellLiquidityFee).div(sellTotalFees))",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1012:49: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(sellTxFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1012:49: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(sellTxFee).div(sellTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1012:32: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(sellTxFee).div(sellTotalFees))",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1022:13: Warning: Div In Path.\n            if(fees > 0){\n            ^\nSpanning multiple lines."
+   ],
+   [
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:970:17: Warning: Div In Path.\n        require(balanceOf(to)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:970:17: Warning: Div In Path.\n        require(balanceOf(to).add(amount)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1016:40: Warning: Div In Path.\n                uint256 buyTotalFees = buyLiquidityFee.add(buyTxFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1017:24: Warning: Div In Path.\n                fees = amount.mul(buyTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1017:24: Warning: Div In Path.\n                fees = amount.mul(buyTotalFees).div(100)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1018:61: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(buyLiquidityFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1018:61: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(buyLiquidityFee).div(buyTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1018:38: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(buyLiquidityFee).div(buyTotalFees))",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1019:49: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(buyTxFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1019:49: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(buyTxFee).div(buyTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1019:32: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(buyTxFee).div(buyTotalFees))",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1022:13: Warning: Div In Path.\n            if(fees > 0){\n            ^\nSpanning multiple lines."
+   ],
+   [
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:970:17: Warning: Div In Path.\n        require(balanceOf(to)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:970:17: Warning: Div In Path.\n        require(balanceOf(to).add(amount)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:996:13: Warning: Div In Path.\n            _setBlacklist(to, true)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1016:40: Warning: Div In Path.\n                uint256 buyTotalFees = buyLiquidityFee.add(buyTxFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1017:24: Warning: Div In Path.\n                fees = amount.mul(buyTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1017:24: Warning: Div In Path.\n                fees = amount.mul(buyTotalFees).div(100)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1018:61: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(buyLiquidityFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1018:61: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(buyLiquidityFee).div(buyTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1018:38: Warning: Div In Path.\n                tokensForLiquidity = tokensForLiquidity.add(fees.mul(buyLiquidityFee).div(buyTotalFees))",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1019:49: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(buyTxFee)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1019:49: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(buyTxFee).div(buyTotalFees)",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1019:32: Warning: Div In Path.\n                tokensForTax = tokensForTax.add(fees.mul(buyTxFee).div(buyTotalFees))",
+    "ex_95_samples/39da420ac0d9a6d8e05c5d9acac75377decfbb42_WANGMI.sol:1022:13: Warning: Div In Path.\n            if(fees > 0){\n            ^\nSpanning multiple lines."
+   ]
+  ],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 4,
+ "storage_var_count": 28,
+ "pub_fun_count": 47
+}

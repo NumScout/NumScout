@@ -1,0 +1,40 @@
+{
+ "evm_code_coverage": "13.0",
+ "instructions": "12821",
+ "time": "1801.674355506897",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ex_95_samples/4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol:312:28: Warning: Indivisible Amount.\n\t\tuint256 totalAvailable = this.balance.sub(totalOffer)",
+    "ex_95_samples/4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol:318:3: Warning: Indivisible Amount.\n\t\taddress(0xD5d6301dE62D82F461dC29824FC597D38d80c424).transfer(perFounder)"
+   ],
+   [
+    "ex_95_samples/4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol:312:28: Warning: Indivisible Amount.\n\t\tuint256 totalAvailable = this.balance.sub(totalOffer)",
+    "ex_95_samples/4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol:319:3: Warning: Indivisible Amount.\n\t\taddress(0x1E4F1275bB041586D7Bec44D2E3e4F30e0dA7Ba4).transfer(perFounder)"
+   ],
+   [
+    "ex_95_samples/4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol:312:28: Warning: Indivisible Amount.\n\t\tuint256 totalAvailable = this.balance.sub(totalOffer)",
+    "ex_95_samples/4bdde1e9fbaef2579dd63e2abbf0be445ab93f10_CityMayor.sol:320:3: Warning: Indivisible Amount.\n\t\taddress(0xe1811eC49f493afb1F4B42E3Ef4a3B9d62d9A01b).transfer(perFounder)"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 2,
+ "storage_var_count": 19,
+ "pub_fun_count": 39
+}

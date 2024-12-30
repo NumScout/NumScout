@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["_buyMap", "_maxTxAmount", "_maxWalletSize", "_swapTokensAtAmount", "allowance", "approve", "balanceOf", "blockBots", "bots", "decimals", "excludeMultipleAccountsFromFees", "name", "owner", "removeLimits", "renounceOwnership", "setFee", "setMaxTxnAmount", "setMaxWalletSize", "setMinSwapTokensThreshold", "setTrading", "symbol", "toggleSwap", "totalSupply", "unblockBot", "uniswapV2Pair", "uniswapV2Router"],
+  "wrong": []
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["airdrop", "mint", "transferFrom", "withdraw", "withdrawTokens"],
+  "wrong": ["safeTransferFrom", "setLowerMaxSupply"]
+}
+```

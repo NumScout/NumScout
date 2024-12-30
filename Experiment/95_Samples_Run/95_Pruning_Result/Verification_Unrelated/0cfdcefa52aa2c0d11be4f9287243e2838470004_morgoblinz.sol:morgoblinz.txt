@@ -1,0 +1,32 @@
+```json
+{
+  "correct": [
+    "MAX_PER_TX",
+    "MAX_PER_WALLET",
+    "MAX_SUPPLY",
+    "balanceOf",
+    "baseExtension",
+    "baseURI",
+    "contractURI",
+    "getApproved",
+    "isApprovedForAll",
+    "name",
+    "owner",
+    "ownerOf",
+    "paused",
+    "proxyRegistryAddress",
+    "renounceOwnership",
+    "setApprovalForAll",
+    "setdaodertings",
+    "setdating",
+    "supportsInterface",
+    "symbol",
+    "tokenByIndex",
+    "tokenOfOwnerByIndex",
+    "tokenURI",
+    "totalSupply",
+    "transferOwnership"
+  ],
+  "wrong": []
+}
+```

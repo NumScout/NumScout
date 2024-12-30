@@ -1,0 +1,6 @@
+```json
+{
+  "related": ["mint", "mintTeam", "withdraw", "safeTransferFrom"],
+  "unrelated": ["BUY_TOTAL_AMOUNT", "TEAM_LIMIT", "URIExtension", "approve", "balanceOf", "boughtAmount", "getApproved", "getContractInfo", "getMaxTokensAllowed", "isApprovedForAll", "maxTokensPresale", "maxTokensPublic", "min", "mintStage", "name", "owner", "ownerOf", "purchased", "renounceOwnership", "safeSubtract", "setApprovalForAll", "setBaseURI", "setMaxTokensPresale", "setMaxTokensPublic", "setTokenPricePresale", "setTokenPricePublicSale", "setURIExtension", "setUnrevealedURI", "setWhitelistRoot", "startPresale", "startPublicSale", "stopSale", "supportsInterface", "symbol", "teamMintedAmount", "tokenBaseURI", "tokenPrice", "tokenPricePresale", "tokenPricePublicSale", "tokenURI", "totalSupply", "transferFrom", "transferOwnership", "unrevealedURI", "verify", "whitelistRoot"]
+}
+```

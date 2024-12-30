@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["getBuyPrice", "name", "reLoadXname", "activate", "pIDxAddr_", "airDropTracker_", "round_", "plyrNames_", "fees_", "pIDxName_", "registerNameXaddr", "receivePlayerInfo", "rndTmEth_", "rID_", "getPlayerVaults", "registerNameXname", "getCurrentRoundInfo", "reLoadXaddr", "receivePlayerNameList", "registerNameXID", "symbol", "plyrRnds_", "potSplit_", "getTimeLeft", "calcKeysReceived", "iWantXKeys", "activated_", "airDropPot_", "plyr_", "potSwap", "getPlayerInfoByAddress"],
+  "wrong": []
+}
+```

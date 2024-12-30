@@ -1,0 +1,42 @@
+```json
+{
+  "correct": [
+    "ceoAddress",
+    "cryptonIndexToProtected",
+    "implementsERC721",
+    "totalSupply",
+    "name",
+    "symbol",
+    "paused",
+    "ownerOf",
+    "tokensOfOwner",
+    "cryptonIndexToApproved",
+    "getCrypton",
+    "priceOf",
+    "setCEO",
+    "setCOO",
+    "setFIRST_STEP_MULTIPLIER",
+    "unpause",
+    "pause",
+    "getFIRST_STEP_MULTIPLIER",
+    "getCRYPTON_CUT",
+    "setCRYPTON_CUT",
+    "cryptonIndexToOwner",
+    "getFIRST_STEP_LIMIT",
+    "setProtectionForMyUnprotectedCrypton",
+    "getSECOND_STEP_MULTIPLIER",
+    "getXPROMO_MULTIPLIER",
+    "setMarkup",
+    "setFIRST_STEP_LIMIT",
+    "getMarkup",
+    "setSECOND_STEP_MULTIPLIER",
+    "cooAddress",
+    "setXPROMO_MULTIPLIER",
+    "SYMBOL",
+    "NAME"
+  ],
+  "wrong": [
+    "createCrypton"
+  ]
+}
+```

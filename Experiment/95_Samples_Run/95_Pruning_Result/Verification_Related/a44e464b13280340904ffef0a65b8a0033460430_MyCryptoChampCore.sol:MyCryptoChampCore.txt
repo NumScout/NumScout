@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["openLootbox", "withdrawChamp", "buyChamp", "withdrawToAddress", "setItemForSale", "buyItem", "setChampForSale"],
+  "wrong": ["giveChamp", "giveItem", "takeOffItem", "createChamp", "forgeItems", "putOn"]
+}
+```

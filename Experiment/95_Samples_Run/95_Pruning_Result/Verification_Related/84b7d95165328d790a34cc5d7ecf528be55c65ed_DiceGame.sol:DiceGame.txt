@@ -1,0 +1,12 @@
+```json
+{
+  "correct": [
+    "settleBet", 
+    "placeBet", 
+    "houseWithdraw", 
+    "playerWithdrawPendingTransactions", 
+    "refundBet"
+  ], 
+  "wrong": []
+}
+```

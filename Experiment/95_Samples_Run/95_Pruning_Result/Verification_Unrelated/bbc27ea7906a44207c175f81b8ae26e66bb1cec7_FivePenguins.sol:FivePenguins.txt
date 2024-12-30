@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["MAX_SUPPLY", "addAdmins", "addToWhitelist", "admins", "balanceOf", "baseURI", "canClaimFreeMint", "freeMintClaimed", "getApproved", "isApprovedForAll", "name", "owner", "ownerOf", "presaleEnabled", "removeAdmins", "removeFromWhitelist", "saleEnabled", "setAdminsLock", "soldOut", "supportsInterface", "symbol", "tokenOwners", "tokenURI", "whitelist"],
+  "wrong": ["totalSupply"]
+}
+```

@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["allowance", "balanceOf", "decimals", "getAddresses", "getExemptions", "getLimitsInfo", "getTaxInfo", "increaseLimits", "isLP", "name", "symbol", "totalSupply"],
+  "wrong": []
+}
+```

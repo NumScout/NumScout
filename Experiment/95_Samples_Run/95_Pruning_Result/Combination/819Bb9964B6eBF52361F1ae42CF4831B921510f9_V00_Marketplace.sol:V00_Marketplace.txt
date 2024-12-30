@@ -1,0 +1,37 @@
+```json
+{
+  "related": [
+    "updateRefund",
+    "makeOffer",
+    "sendDeposit",
+    "addFunds",
+    "acceptOffer",
+    "withdrawListing",
+    "withdrawOffer",
+    "finalize",
+    "executeRuling"
+  ],
+  "unrelated": [
+    "addData",
+    "setTokenAddr",
+    "offers",
+    "tokenAddr",
+    "dispute",
+    "renounceOwnership",
+    "addAffiliate",
+    "owner",
+    "totalOffers",
+    "allowedAffiliates",
+    "addData",
+    "removeAffiliate",
+    "updateListing",
+    "totalListings",
+    "createListing",
+    "updateListingWithSender",
+    "addData",
+    "createListingWithSender",
+    "listings",
+    "transferOwnership"
+  ]
+}
+```

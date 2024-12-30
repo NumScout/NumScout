@@ -1,0 +1,6 @@
+```json
+{
+    "correct": ["publicSaleMint", "ogMint", "devMint", "withdrawMoney", "batchTransferFrom", "transferFrom", "safeTransferFrom"],
+    "wrong": []
+}
+```

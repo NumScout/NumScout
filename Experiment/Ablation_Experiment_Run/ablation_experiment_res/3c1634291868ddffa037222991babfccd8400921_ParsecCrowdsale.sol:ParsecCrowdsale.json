@@ -1,0 +1,46 @@
+{
+ "evm_code_coverage": "98.5",
+ "instructions": "6108",
+ "time": "5637.34025645256",
+ "analysis": {
+  "div_in_path": [],
+  "operator_order_issue": [],
+  "indivisible_amount": [
+   [
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:451:31: Warning: Indivisible Amount.\n        uint256 parsecValue = calculateReward(msg.value)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:784:51: Warning: Indivisible Amount.\n        uint256 actualQuotient = baseQuotient.add(calculateBonusTierQuotient()",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:795:27: Warning: Indivisible Amount.\n        uint256 funding = raisedFunding.add(pendingFunding)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:784:34: Warning: Indivisible Amount.\n        uint256 actualQuotient = baseQuotient.add(calculateBonusTierQuotient())",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:787:26: Warning: Indivisible Amount.\n        uint256 reward = ethValue.mul(PARSECS_PER_ETHER_BASE)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:788:18: Warning: Indivisible Amount.\n        reward = reward.mul(actualQuotient)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:789:18: Warning: Indivisible Amount.\n        reward = reward.div(baseQuotient)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:790:16: Warning: Indivisible Amount.\n        return reward.div(1 ether)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:454:40: Warning: Indivisible Amount.\n        uint256 maxAcceptableParsecs = PARSECS_TOTAL_AMOUNT.sub(spentParsecs)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:455:32: Warning: Indivisible Amount.\n        maxAcceptableParsecs = maxAcceptableParsecs.sub(pendingParsecs)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:470:13: Warning: Indivisible Amount.\n            addAcceptedContribution(msg.sender, msg.value, parsecValue)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:738:39: Warning: Indivisible Amount.\n        contributionOf[participant] = contributionOf[participant].add(ethValue)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:741:34: Warning: Indivisible Amount.\n        parsecsOf[participant] = parsecsOf[participant].add(parsecValue)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:744:25: Warning: Indivisible Amount.\n        raisedFunding = raisedFunding.add(ethValue)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:747:24: Warning: Indivisible Amount.\n        spentParsecs = spentParsecs.add(parsecValue)",
+    "ab_95_samples/3c1634291868ddffa037222991babfccd8400921_ParsecCrowdsale.sol:756:9: Warning: Indivisible Amount.\n        parsecToken.transfer(participant, parsecValue)"
+   ]
+  ],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": false,
+  "operator_order_issue": false,
+  "indivisible_amount": true,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 4,
+ "storage_var_count": 35,
+ "pub_fun_count": 51
+}

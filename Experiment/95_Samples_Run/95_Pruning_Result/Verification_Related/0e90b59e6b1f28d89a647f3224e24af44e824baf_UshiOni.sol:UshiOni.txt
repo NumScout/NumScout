@@ -1,0 +1,6 @@
+```json
+{
+  "correct": ["approve", "approveMax", "balanceOf", "transfer", "transferFrom", "refresh", "validate"],
+  "wrong": ["Approve"]
+}
+```

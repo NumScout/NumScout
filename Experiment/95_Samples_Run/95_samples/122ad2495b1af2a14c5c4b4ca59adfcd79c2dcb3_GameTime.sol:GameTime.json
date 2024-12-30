@@ -1,0 +1,47 @@
+{
+ "evm_code_coverage": "27.9",
+ "instructions": "8496",
+ "time": "1802.1585187911987",
+ "analysis": {
+  "div_in_path": [
+   [
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:197:9: Warning: Div In Path.\n        _transfer(from, to, amount)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:272:17: Warning: Div In Path.\n                _transferTaxes(from, to, amount, 0)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:303:9: Warning: Div In Path.\n        if(pit > 0) _update(from, address(0), pit)"
+   ],
+   [
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:197:9: Warning: Div In Path.\n        _transfer(from, to, amount)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:272:17: Warning: Div In Path.\n                _transferTaxes(from, to, amount, 0)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:304:9: Warning: Div In Path.\n        _update(from, address(this), tax)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:259:14: Warning: Div In Path.\n        emit Transfer(from, to, amount)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:316:13: Warning: Div In Path.\n            if(total <= 0) break"
+   ],
+   [
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:197:9: Warning: Div In Path.\n        _transfer(from, to, amount)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:272:17: Warning: Div In Path.\n                _transferTaxes(from, to, amount, 0)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:304:9: Warning: Div In Path.\n        _update(from, address(this), tax)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:259:14: Warning: Div In Path.\n        emit Transfer(from, to, amount)",
+    "ex_95_samples/122ad2495b1af2a14c5c4b4ca59adfcd79c2dcb3_GameTime.sol:318:9: Warning: Div In Path.\n        if(total > 0) _taxes[direction].tokens[_taxes[direction].percent.length - 1] += total"
+   ]
+  ],
+  "operator_order_issue": [],
+  "indivisible_amount": [],
+  "precision_loss_trend": [],
+  "exchange_problem": [],
+  "exchange_rounding": [],
+  "profit_opportunity": []
+ },
+ "bool_defect": {
+  "div_in_path": true,
+  "operator_order_issue": false,
+  "indivisible_amount": false,
+  "precision_loss_trend": false,
+  "exchange_problem": false,
+  "exchange_rounding": false,
+  "profit_opportunity": false
+ },
+ "address": "",
+ "contract_count": 1,
+ "storage_var_count": 16,
+ "pub_fun_count": 19
+}
